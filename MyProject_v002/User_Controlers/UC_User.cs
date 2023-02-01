@@ -25,6 +25,8 @@ namespace MyProject_v002.User_Controlers
 
         private void UC_User_Load(object sender, EventArgs e)
         {
+            guna2picbxBackground.Load("Images/matrix-g9ec227521_1920.jpg");
+
             Display_theName_of_the_User();
 
             // Get all user ADMIN and print them

@@ -102,7 +102,10 @@ namespace MyProject_v002
             {
                 guna2cbtnUserProfile.FillColor = Color.DarkTurquoise;
             }
-            
+            else if (button.Text.ToLower() == "info")
+            {
+                guna2cbtnUserProfile.FillColor = Color.LightSteelBlue;
+            }
         }
 
         // check the user type and print content according to user type
@@ -220,8 +223,10 @@ namespace MyProject_v002
 
         private void guna2btnInfo_Click(object sender, EventArgs e)
         {
-            //guna2btnInfo.FillColor = Color.RosyBrown;
-            //guna2btnInfo.ForeColor = Color.White;
+            UC_Info uc = new UC_Info();
+            Add_UserController(uc);
+            guna2btnInfo.FillColor = Color.LightSteelBlue;
+            guna2btnInfo.ForeColor = Color.White;
             Reinitialize_Buttons();
             ChangeColors(guna2btnInfo);
         }

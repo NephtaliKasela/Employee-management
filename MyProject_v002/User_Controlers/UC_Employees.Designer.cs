@@ -318,6 +318,8 @@
             // guna2DataGridView
             // 
             this.guna2DataGridView.AllowDrop = true;
+            this.guna2DataGridView.AllowUserToAddRows = false;
+            this.guna2DataGridView.AllowUserToDeleteRows = false;
             this.guna2DataGridView.AllowUserToOrderColumns = true;
             this.guna2DataGridView.AllowUserToResizeColumns = false;
             this.guna2DataGridView.AllowUserToResizeRows = false;
@@ -327,7 +329,6 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
             this.guna2DataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.guna2DataGridView.BackgroundColor = System.Drawing.Color.SteelBlue;
-            this.guna2DataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.RaisedHorizontal;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -374,12 +375,14 @@
             this.guna2DataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
             this.guna2DataGridView.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.SteelBlue;
             this.guna2DataGridView.RowTemplate.DefaultCellStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.White;
-            this.guna2DataGridView.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.guna2DataGridView.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Black;
+            this.guna2DataGridView.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.SteelBlue;
+            this.guna2DataGridView.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
             this.guna2DataGridView.RowTemplate.Height = 40;
             this.guna2DataGridView.Size = new System.Drawing.Size(108, 491);
+            this.guna2DataGridView.StandardTab = true;
             this.guna2DataGridView.TabIndex = 0;
+            this.guna2DataGridView.TabStop = false;
             this.guna2DataGridView.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.SteelBlue;
             this.guna2DataGridView.ThemeStyle.AlternatingRowsStyle.Font = null;
             this.guna2DataGridView.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.White;

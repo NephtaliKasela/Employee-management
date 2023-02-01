@@ -276,6 +276,12 @@
     <Compile Include="User_Controlers\UC_Home.Designer.cs">
       <DependentUpon>UC_Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="User_Controlers\UC_Info.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controlers\UC_Info.Designer.cs">
+      <DependentUpon>UC_Info.cs</DependentUpon>
+    </Compile>
     <Compile Include="User_Controlers\UC_Salary.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -326,6 +332,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="User_Controlers\UC_Home.resx">
       <DependentUpon>UC_Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controlers\UC_Info.resx">
+      <DependentUpon>UC_Info.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User_Controlers\UC_Salary.resx">
       <DependentUpon>UC_Salary.cs</DependentUpon>

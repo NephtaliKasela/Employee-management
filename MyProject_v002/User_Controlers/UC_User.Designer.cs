@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_User));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
@@ -60,7 +59,7 @@
             this.guna2cbxUserNameToUpdate = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2txtOldPasswordToUpdate = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2picbxBackground = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblUserNameConnected = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -74,7 +73,7 @@
             this.guna2GroupBox3.SuspendLayout();
             this.guna2GroupBox4.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2picbxBackground)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -521,24 +520,23 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BackColor = System.Drawing.Color.Navy;
-            this.panel4.Controls.Add(this.guna2PictureBox1);
+            this.panel4.Controls.Add(this.guna2picbxBackground);
             this.panel4.Location = new System.Drawing.Point(1170, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(20, 878);
             this.panel4.TabIndex = 12;
             // 
-            // guna2PictureBox1
+            // guna2picbxBackground
             // 
-            this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PictureBox1.FillColor = System.Drawing.Color.Navy;
-            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(20, 878);
-            this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox1.TabIndex = 0;
-            this.guna2PictureBox1.TabStop = false;
+            this.guna2picbxBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2picbxBackground.FillColor = System.Drawing.Color.Navy;
+            this.guna2picbxBackground.ImageRotate = 0F;
+            this.guna2picbxBackground.Location = new System.Drawing.Point(0, 0);
+            this.guna2picbxBackground.Name = "guna2picbxBackground";
+            this.guna2picbxBackground.Size = new System.Drawing.Size(20, 878);
+            this.guna2picbxBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2picbxBackground.TabIndex = 0;
+            this.guna2picbxBackground.TabStop = false;
             // 
             // panel3
             // 
@@ -631,7 +629,7 @@
             this.guna2GroupBox3.ResumeLayout(false);
             this.guna2GroupBox4.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2picbxBackground)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -677,6 +675,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2cbxUserTypeUpd;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
+        private Guna.UI2.WinForms.Guna2PictureBox guna2picbxBackground;
     }
 }

@@ -58,7 +58,7 @@
             this.guna2cbtnUserProfile.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2cbtnUserProfile.ForeColor = System.Drawing.Color.White;
             this.guna2cbtnUserProfile.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2cbtnUserProfile.Location = new System.Drawing.Point(16, 13);
+            this.guna2cbtnUserProfile.Location = new System.Drawing.Point(16, 28);
             this.guna2cbtnUserProfile.Name = "guna2cbtnUserProfile";
             this.guna2cbtnUserProfile.PressedColor = System.Drawing.Color.White;
             this.guna2cbtnUserProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -126,7 +126,7 @@
             this.lblUserName.BackColor = System.Drawing.Color.White;
             this.lblUserName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserName.ForeColor = System.Drawing.Color.Black;
-            this.lblUserName.Location = new System.Drawing.Point(86, 27);
+            this.lblUserName.Location = new System.Drawing.Point(86, 42);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(103, 37);
             this.lblUserName.TabIndex = 14;
