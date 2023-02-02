@@ -19,7 +19,7 @@ namespace MyProject_v002.User_Controlers
 
         private void UC_Info_Load(object sender, EventArgs e)
         {
-            lblCreatorInfo.Text = "This application was created by NEPHTALI KASELA TSHINYENGO. Student at the university YKSUG (Yanka kupala State University of Grodno) in Belarus.";
+            lblCreatorInfo.Text = "'STEFF Control' was created by NEPHTALI KASELA TSHINYENGO and he is from Congo DRC. Student at the university YKSUG (Yanka kupala State University of Grodno) in Belarus.";
             guna2cpicbxCreator.Load("Images/IMG_20221102_205710_307.jpg");
             guna2PicBxBacground.Load("Images/wp1867861.jpg");
             guna2cbtnWhatsApp.Image = Image.FromFile("Logos/whatsapp.png");

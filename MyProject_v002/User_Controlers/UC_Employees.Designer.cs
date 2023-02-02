@@ -318,7 +318,6 @@
             // guna2DataGridView
             // 
             this.guna2DataGridView.AllowDrop = true;
-            this.guna2DataGridView.AllowUserToAddRows = false;
             this.guna2DataGridView.AllowUserToDeleteRows = false;
             this.guna2DataGridView.AllowUserToOrderColumns = true;
             this.guna2DataGridView.AllowUserToResizeColumns = false;

@@ -88,6 +88,7 @@
             // guna2btnLogIn
             // 
             this.guna2btnLogIn.BorderRadius = 10;
+            this.guna2btnLogIn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnLogIn.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnLogIn.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnLogIn.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
