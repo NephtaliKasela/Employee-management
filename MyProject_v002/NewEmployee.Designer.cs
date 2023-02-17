@@ -606,7 +606,8 @@
             this.guna2cbxState.ItemHeight = 30;
             this.guna2cbxState.Items.AddRange(new object[] {
             "Active",
-            "Non active"});
+            "Non active",
+            "Holiday"});
             this.guna2cbxState.Location = new System.Drawing.Point(169, 673);
             this.guna2cbxState.Name = "guna2cbxState";
             this.guna2cbxState.Size = new System.Drawing.Size(207, 36);

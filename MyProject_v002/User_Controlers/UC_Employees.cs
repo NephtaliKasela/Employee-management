@@ -97,15 +97,18 @@ namespace MyProject_v002.User_Controlers
                             lblState.Text = emp.State;
                             if (lblState.Text.ToLower() == "active") 
                             { 
-                                //lblState.BackColor = Color.Green; 
                                 lblState.ForeColor = Color.Lime; 
                                 guna2cbxState.BorderColor = Color.Lime;
                             }
-                            else 
+                            else if(lblState.Text.ToLower() == "non active")
                             {
-                                //lblState.BackColor = Color.Red;
                                 lblState.ForeColor = Color.DeepPink;
                                 guna2cbxState.BorderColor = Color.DeepPink;
+                            }
+                            else if (lblState.Text.ToLower() == "holiday")
+                            {
+                                lblState.ForeColor = Color.DarkGoldenrod;
+                                guna2cbxState.BorderColor = Color.DarkGoldenrod;
                             }
 
                             try
@@ -266,7 +269,7 @@ namespace MyProject_v002.User_Controlers
 
                 if ((employee.Name.ToLower().Contains(guna2txtSearchByName.Text.ToLower()) ||
                        employee.PostName.ToLower().Contains(guna2txtSearchByName.Text.ToLower()) ||
-                       employee.GivenName.ToLower().Contains(guna2txtSearchByName.Text.ToLower())) && employee.State.ToLower() == "none active")
+                       employee.GivenName.ToLower().Contains(guna2txtSearchByName.Text.ToLower())) && employee.State.ToLower() == "none active" || employee.State.ToLower() == "holiday")
                 {
                     guna2DataGridView.Rows.Add(employee.Name.ToUpper(), employee.PostName.ToUpper(), employee.GivenName.ToUpper());
                 }
@@ -312,7 +315,7 @@ namespace MyProject_v002.User_Controlers
                 else if (guna2btnNoneActive.Checked)
                 {
 
-                    if (employee.State.ToLower() == "non active")
+                    if (employee.State.ToLower() == "non active" || employee.State.ToLower() == "holiday")
                     {
                         guna2DataGridView.Rows.Add(employee.Name.ToUpper(), employee.PostName.ToUpper(), employee.GivenName.ToUpper());
                     }
@@ -358,7 +361,7 @@ namespace MyProject_v002.User_Controlers
                 else if (guna2btnNoneActive.Checked)
                 {
 
-                    if (employee.State.ToLower() == "non active")
+                    if (employee.State.ToLower() == "non active" || employee.State.ToLower() == "holiday")
                     {
                         CheckTheDate(employee, text, start_or_End);
                     }
