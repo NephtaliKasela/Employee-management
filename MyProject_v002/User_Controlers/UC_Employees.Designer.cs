@@ -147,14 +147,13 @@
             this.tableLayoutPanel1.Controls.Add(this.guna2Panel5, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.guna2Panel3, 0, 1);
             this.tableLayoutPanel1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 43);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 125);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25.29644F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 74.70356F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(154, 692);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(154, 610);
             this.tableLayoutPanel1.TabIndex = 19;
             // 
             // guna2Panel5
@@ -167,7 +166,7 @@
             this.guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel5.Location = new System.Drawing.Point(3, 3);
             this.guna2Panel5.Name = "guna2Panel5";
-            this.guna2Panel5.Size = new System.Drawing.Size(148, 169);
+            this.guna2Panel5.Size = new System.Drawing.Size(148, 148);
             this.guna2Panel5.TabIndex = 18;
             // 
             // guna2Panel6
@@ -177,7 +176,7 @@
             this.guna2Panel6.Controls.Add(this.guna2btnUpdate);
             this.guna2Panel6.Controls.Add(this.guna2btnDelete);
             this.guna2Panel6.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel6.Location = new System.Drawing.Point(0, 127);
+            this.guna2Panel6.Location = new System.Drawing.Point(0, 106);
             this.guna2Panel6.Name = "guna2Panel6";
             this.guna2Panel6.Size = new System.Drawing.Size(148, 42);
             this.guna2Panel6.TabIndex = 19;
@@ -185,7 +184,7 @@
             // guna2btnUpdate
             // 
             this.guna2btnUpdate.BackColor = System.Drawing.Color.White;
-            this.guna2btnUpdate.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2btnUpdate.BorderColor = System.Drawing.Color.Navy;
             this.guna2btnUpdate.BorderRadius = 10;
             this.guna2btnUpdate.BorderThickness = 1;
             this.guna2btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -195,7 +194,7 @@
             this.guna2btnUpdate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
             this.guna2btnUpdate.FillColor = System.Drawing.Color.White;
             this.guna2btnUpdate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2btnUpdate.ForeColor = System.Drawing.Color.Navy;
             this.guna2btnUpdate.Location = new System.Drawing.Point(237, 4);
             this.guna2btnUpdate.Name = "guna2btnUpdate";
             this.guna2btnUpdate.Size = new System.Drawing.Size(188, 34);
@@ -295,7 +294,7 @@
             // 
             // guna2TxtSearchByEndJob
             // 
-            this.guna2TxtSearchByEndJob.BorderColor = System.Drawing.Color.SlateGray;
+            this.guna2TxtSearchByEndJob.BorderColor = System.Drawing.Color.DarkGoldenrod;
             this.guna2TxtSearchByEndJob.BorderRadius = 10;
             this.guna2TxtSearchByEndJob.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TxtSearchByEndJob.DefaultText = "";
@@ -305,7 +304,7 @@
             this.guna2TxtSearchByEndJob.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TxtSearchByEndJob.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TxtSearchByEndJob.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TxtSearchByEndJob.ForeColor = System.Drawing.Color.MediumVioletRed;
+            this.guna2TxtSearchByEndJob.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.guna2TxtSearchByEndJob.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2TxtSearchByEndJob.Location = new System.Drawing.Point(29, 82);
             this.guna2TxtSearchByEndJob.Name = "guna2TxtSearchByEndJob";
@@ -324,10 +323,10 @@
             this.guna2Panel3.Controls.Add(this.guna2DataGridView);
             this.guna2Panel3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel3.Location = new System.Drawing.Point(3, 178);
+            this.guna2Panel3.Location = new System.Drawing.Point(3, 157);
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Padding = new System.Windows.Forms.Padding(20, 0, 20, 20);
-            this.guna2Panel3.Size = new System.Drawing.Size(148, 511);
+            this.guna2Panel3.Size = new System.Drawing.Size(148, 450);
             this.guna2Panel3.TabIndex = 17;
             // 
             // guna2DataGridView
@@ -392,7 +391,7 @@
             this.guna2DataGridView.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.White;
             this.guna2DataGridView.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.SystemColors.ScrollBar;
             this.guna2DataGridView.RowTemplate.Height = 40;
-            this.guna2DataGridView.Size = new System.Drawing.Size(108, 491);
+            this.guna2DataGridView.Size = new System.Drawing.Size(108, 430);
             this.guna2DataGridView.StandardTab = true;
             this.guna2DataGridView.TabIndex = 0;
             this.guna2DataGridView.TabStop = false;
@@ -1094,7 +1093,7 @@
             this.guna2Panel7.Dock = System.Windows.Forms.DockStyle.Right;
             this.guna2Panel7.Location = new System.Drawing.Point(-84, 0);
             this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(232, 127);
+            this.guna2Panel7.Size = new System.Drawing.Size(232, 106);
             this.guna2Panel7.TabIndex = 20;
             // 
             // UC_Employees
