@@ -97,13 +97,15 @@ namespace MyProject_v002.User_Controlers
                             lblState.Text = emp.State;
                             if (lblState.Text.ToLower() == "active") 
                             { 
-                                lblState.BackColor = Color.Green; 
-                                lblState.ForeColor = Color.White; 
+                                //lblState.BackColor = Color.Green; 
+                                lblState.ForeColor = Color.Lime; 
+                                guna2cbxState.BorderColor = Color.Lime;
                             }
                             else 
                             {
-                                lblState.BackColor = Color.Red;
-                                lblState.ForeColor = Color.Black;
+                                //lblState.BackColor = Color.Red;
+                                lblState.ForeColor = Color.DeepPink;
+                                guna2cbxState.BorderColor = Color.DeepPink;
                             }
 
                             try
@@ -166,7 +168,7 @@ namespace MyProject_v002.User_Controlers
 
         private void guna2TxtSearchByEndJob_TextChanged(object sender, EventArgs e)
         {
-            guna2TxtSearchByEndJob.Text = string.Empty;
+            guna2TxtSearchByStartJob.Text = string.Empty;
             if (guna2TxtSearchByEndJob.Text.Length == 1) MessageBox.Show("Example: DD.MM.YYYY\n\t01.01.1919\n\t     01.1919\n\t          1919", "Info");
             PrintNamesByDate(guna2TxtSearchByEndJob, "end");
             if (guna2TxtSearchByEndJob.Text.Length > 10) MessageBox.Show("Example: DD.MM.YYYY\n\t01.01.1919\n\t     01.1919\n\t          1919", "Info");
