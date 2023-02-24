@@ -99,8 +99,8 @@
             this.guna2CustomGradientPanel1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel1.Controls.Add(this.guna2GroupBox1);
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.OrangeRed;
-            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.OldLace;
+            this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.WindowText;
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.SystemColors.WindowText;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 155);
@@ -129,7 +129,7 @@
             // 
             this.lblTotalSince.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotalSince.ForeColor = System.Drawing.Color.White;
-            this.lblTotalSince.Location = new System.Drawing.Point(20, 59);
+            this.lblTotalSince.Location = new System.Drawing.Point(20, 62);
             this.lblTotalSince.Name = "lblTotalSince";
             this.lblTotalSince.Size = new System.Drawing.Size(306, 71);
             this.lblTotalSince.TabIndex = 1;
@@ -140,7 +140,7 @@
             // 
             this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(20, 9);
+            this.label4.Location = new System.Drawing.Point(20, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(306, 54);
             this.label4.TabIndex = 0;
@@ -152,8 +152,8 @@
             this.guna2CustomGradientPanel3.BackColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel3.Controls.Add(this.guna2GroupBox2);
             this.guna2CustomGradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.OrangeRed;
-            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.OldLace;
+            this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.Transparent;
+            this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.SystemColors.WindowText;
             this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.SystemColors.WindowText;
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(0, 0);
@@ -182,7 +182,7 @@
             // 
             this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTotal.ForeColor = System.Drawing.Color.White;
-            this.lblTotal.Location = new System.Drawing.Point(20, 53);
+            this.lblTotal.Location = new System.Drawing.Point(20, 55);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(306, 80);
             this.lblTotal.TabIndex = 2;
@@ -193,7 +193,7 @@
             // 
             this.label5.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(20, 7);
+            this.label5.Location = new System.Drawing.Point(20, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(306, 54);
             this.label5.TabIndex = 1;
@@ -348,7 +348,8 @@
             // guna2cbxDepartmt
             // 
             this.guna2cbxDepartmt.BackColor = System.Drawing.Color.Transparent;
-            this.guna2cbxDepartmt.BorderRadius = 10;
+            this.guna2cbxDepartmt.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2cbxDepartmt.BorderRadius = 5;
             this.guna2cbxDepartmt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2cbxDepartmt.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2cbxDepartmt.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -357,7 +358,7 @@
             this.guna2cbxDepartmt.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.guna2cbxDepartmt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.guna2cbxDepartmt.ItemHeight = 30;
-            this.guna2cbxDepartmt.Location = new System.Drawing.Point(36, 89);
+            this.guna2cbxDepartmt.Location = new System.Drawing.Point(36, 107);
             this.guna2cbxDepartmt.Name = "guna2cbxDepartmt";
             this.guna2cbxDepartmt.Size = new System.Drawing.Size(323, 36);
             this.guna2cbxDepartmt.TabIndex = 18;
@@ -365,7 +366,8 @@
             // 
             // guna2TxtSearch
             // 
-            this.guna2TxtSearch.BorderRadius = 10;
+            this.guna2TxtSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2TxtSearch.BorderRadius = 5;
             this.guna2TxtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TxtSearch.DefaultText = "";
             this.guna2TxtSearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -378,6 +380,7 @@
             this.guna2TxtSearch.Location = new System.Drawing.Point(36, 18);
             this.guna2TxtSearch.Name = "guna2TxtSearch";
             this.guna2TxtSearch.PasswordChar = '\0';
+            this.guna2TxtSearch.PlaceholderForeColor = System.Drawing.Color.DimGray;
             this.guna2TxtSearch.PlaceholderText = "Search";
             this.guna2TxtSearch.SelectedText = "";
             this.guna2TxtSearch.Size = new System.Drawing.Size(323, 36);
@@ -387,7 +390,7 @@
             // guna2NupDwAddSalaryToAll
             // 
             this.guna2NupDwAddSalaryToAll.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NupDwAddSalaryToAll.BorderRadius = 10;
+            this.guna2NupDwAddSalaryToAll.BorderRadius = 5;
             this.guna2NupDwAddSalaryToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwAddSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwAddSalaryToAll.Location = new System.Drawing.Point(29, 79);
@@ -400,13 +403,15 @@
             // guna2btnAddSalaryToAll
             // 
             this.guna2btnAddSalaryToAll.BackColor = System.Drawing.Color.IndianRed;
+            this.guna2btnAddSalaryToAll.BorderColor = System.Drawing.Color.IndianRed;
             this.guna2btnAddSalaryToAll.BorderRadius = 10;
+            this.guna2btnAddSalaryToAll.BorderThickness = 1;
             this.guna2btnAddSalaryToAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnAddSalaryToAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnAddSalaryToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnAddSalaryToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnAddSalaryToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnAddSalaryToAll.FillColor = System.Drawing.Color.Brown;
+            this.guna2btnAddSalaryToAll.FillColor = System.Drawing.SystemColors.HighlightText;
             this.guna2btnAddSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnAddSalaryToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnAddSalaryToAll.Location = new System.Drawing.Point(238, 79);
@@ -419,7 +424,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkGray;
             this.label1.Location = new System.Drawing.Point(9, 32);
             this.label1.Name = "label1";
@@ -430,18 +435,19 @@
             // 
             // guna2btnUpdate
             // 
-            this.guna2btnUpdate.BorderRadius = 10;
+            this.guna2btnUpdate.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2btnUpdate.BorderRadius = 5;
             this.guna2btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnUpdate.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnUpdate.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnUpdate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnUpdate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnUpdate.FillColor = System.Drawing.Color.DarkGray;
+            this.guna2btnUpdate.FillColor = System.Drawing.Color.Gray;
             this.guna2btnUpdate.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnUpdate.ForeColor = System.Drawing.Color.White;
             this.guna2btnUpdate.Location = new System.Drawing.Point(13, 273);
             this.guna2btnUpdate.Name = "guna2btnUpdate";
-            this.guna2btnUpdate.Size = new System.Drawing.Size(262, 34);
+            this.guna2btnUpdate.Size = new System.Drawing.Size(140, 34);
             this.guna2btnUpdate.TabIndex = 23;
             this.guna2btnUpdate.Text = "Update";
             this.guna2btnUpdate.Click += new System.EventHandler(this.guna2btnUpdate_Click);
@@ -449,7 +455,7 @@
             // label3
             // 
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkGray;
             this.label3.Location = new System.Drawing.Point(13, 31);
             this.label3.Name = "label3";
@@ -461,7 +467,7 @@
             // guna2NupDwAddBonusToAll
             // 
             this.guna2NupDwAddBonusToAll.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NupDwAddBonusToAll.BorderRadius = 10;
+            this.guna2NupDwAddBonusToAll.BorderRadius = 5;
             this.guna2NupDwAddBonusToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwAddBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwAddBonusToAll.Location = new System.Drawing.Point(24, 78);
@@ -473,13 +479,15 @@
             // 
             // guna2btnAddBonusToAll
             // 
+            this.guna2btnAddBonusToAll.BorderColor = System.Drawing.Color.IndianRed;
             this.guna2btnAddBonusToAll.BorderRadius = 10;
+            this.guna2btnAddBonusToAll.BorderThickness = 1;
             this.guna2btnAddBonusToAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnAddBonusToAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnAddBonusToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnAddBonusToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnAddBonusToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnAddBonusToAll.FillColor = System.Drawing.Color.Brown;
+            this.guna2btnAddBonusToAll.FillColor = System.Drawing.SystemColors.HighlightText;
             this.guna2btnAddBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnAddBonusToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnAddBonusToAll.Location = new System.Drawing.Point(243, 81);
@@ -491,7 +499,7 @@
             // 
             // guna2TxtCurrency
             // 
-            this.guna2TxtCurrency.BorderRadius = 10;
+            this.guna2TxtCurrency.BorderRadius = 5;
             this.guna2TxtCurrency.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TxtCurrency.DefaultText = "";
             this.guna2TxtCurrency.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
@@ -513,7 +521,7 @@
             // guna2cbxMounth
             // 
             this.guna2cbxMounth.BackColor = System.Drawing.Color.Transparent;
-            this.guna2cbxMounth.BorderRadius = 10;
+            this.guna2cbxMounth.BorderRadius = 5;
             this.guna2cbxMounth.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2cbxMounth.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2cbxMounth.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -543,7 +551,7 @@
             // guna2cbxCurrency
             // 
             this.guna2cbxCurrency.BackColor = System.Drawing.Color.Transparent;
-            this.guna2cbxCurrency.BorderRadius = 10;
+            this.guna2cbxCurrency.BorderRadius = 5;
             this.guna2cbxCurrency.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2cbxCurrency.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2cbxCurrency.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -566,13 +574,15 @@
             // 
             // guna2btnSubstractBonusToAll
             // 
+            this.guna2btnSubstractBonusToAll.BorderColor = System.Drawing.Color.IndianRed;
             this.guna2btnSubstractBonusToAll.BorderRadius = 10;
+            this.guna2btnSubstractBonusToAll.BorderThickness = 1;
             this.guna2btnSubstractBonusToAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnSubstractBonusToAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnSubstractBonusToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnSubstractBonusToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnSubstractBonusToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnSubstractBonusToAll.FillColor = System.Drawing.Color.Brown;
+            this.guna2btnSubstractBonusToAll.FillColor = System.Drawing.SystemColors.HighlightText;
             this.guna2btnSubstractBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnSubstractBonusToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnSubstractBonusToAll.Location = new System.Drawing.Point(243, 180);
@@ -585,7 +595,7 @@
             // guna2NupDwSubstractBonusToAll
             // 
             this.guna2NupDwSubstractBonusToAll.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NupDwSubstractBonusToAll.BorderRadius = 10;
+            this.guna2NupDwSubstractBonusToAll.BorderRadius = 5;
             this.guna2NupDwSubstractBonusToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwSubstractBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwSubstractBonusToAll.Location = new System.Drawing.Point(24, 180);
@@ -598,7 +608,7 @@
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.DarkGray;
             this.label6.Location = new System.Drawing.Point(13, 133);
             this.label6.Name = "label6";
@@ -610,7 +620,7 @@
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.DarkGray;
             this.label7.Location = new System.Drawing.Point(12, 134);
             this.label7.Name = "label7";
@@ -621,13 +631,15 @@
             // 
             // guna2btnSubstractSalaryToAll
             // 
+            this.guna2btnSubstractSalaryToAll.BorderColor = System.Drawing.Color.IndianRed;
             this.guna2btnSubstractSalaryToAll.BorderRadius = 10;
+            this.guna2btnSubstractSalaryToAll.BorderThickness = 1;
             this.guna2btnSubstractSalaryToAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnSubstractSalaryToAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnSubstractSalaryToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnSubstractSalaryToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnSubstractSalaryToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnSubstractSalaryToAll.FillColor = System.Drawing.Color.Brown;
+            this.guna2btnSubstractSalaryToAll.FillColor = System.Drawing.SystemColors.HighlightText;
             this.guna2btnSubstractSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnSubstractSalaryToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnSubstractSalaryToAll.Location = new System.Drawing.Point(238, 181);
@@ -640,7 +652,7 @@
             // guna2NupDwSubstractSalaryToAll
             // 
             this.guna2NupDwSubstractSalaryToAll.BackColor = System.Drawing.Color.Transparent;
-            this.guna2NupDwSubstractSalaryToAll.BorderRadius = 10;
+            this.guna2NupDwSubstractSalaryToAll.BorderRadius = 5;
             this.guna2NupDwSubstractSalaryToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwSubstractSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwSubstractSalaryToAll.Location = new System.Drawing.Point(29, 181);
@@ -652,7 +664,7 @@
             // 
             // guna2GroupBox3
             // 
-            this.guna2GroupBox3.BorderRadius = 10;
+            this.guna2GroupBox3.BorderRadius = 5;
             this.guna2GroupBox3.Controls.Add(this.guna2NupDwAddSalaryToAll);
             this.guna2GroupBox3.Controls.Add(this.guna2btnAddSalaryToAll);
             this.guna2GroupBox3.Controls.Add(this.label1);
@@ -670,7 +682,7 @@
             // 
             // guna2GroupBox4
             // 
-            this.guna2GroupBox4.BorderRadius = 10;
+            this.guna2GroupBox4.BorderRadius = 5;
             this.guna2GroupBox4.Controls.Add(this.label3);
             this.guna2GroupBox4.Controls.Add(this.guna2NupDwAddBonusToAll);
             this.guna2GroupBox4.Controls.Add(this.guna2btnSubstractBonusToAll);
@@ -688,7 +700,7 @@
             // 
             // guna2GroupBox5
             // 
-            this.guna2GroupBox5.BorderRadius = 10;
+            this.guna2GroupBox5.BorderRadius = 5;
             this.guna2GroupBox5.Controls.Add(this.guna2TxtCurrency);
             this.guna2GroupBox5.Controls.Add(this.guna2cbxCurrency);
             this.guna2GroupBox5.FillColor = System.Drawing.Color.IndianRed;
@@ -703,7 +715,7 @@
             // 
             // guna2GroupBox6
             // 
-            this.guna2GroupBox6.BorderRadius = 10;
+            this.guna2GroupBox6.BorderRadius = 5;
             this.guna2GroupBox6.Controls.Add(this.guna2cbxMounth);
             this.guna2GroupBox6.CustomBorderThickness = new System.Windows.Forms.Padding(0, 30, 0, 0);
             this.guna2GroupBox6.FillColor = System.Drawing.Color.IndianRed;
@@ -741,14 +753,14 @@
             // 
             // label2
             // 
-            this.label2.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(103, 138);
+            this.label2.Location = new System.Drawing.Point(34, 67);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(185, 37);
+            this.label2.Size = new System.Drawing.Size(164, 37);
             this.label2.TabIndex = 48;
             this.label2.Text = "Department";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // UC_Salary
             // 
