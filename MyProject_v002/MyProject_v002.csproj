@@ -390,7 +390,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="bb\" />
     <Folder Include="Images\" />
     <Folder Include="Logos\" />
   </ItemGroup>

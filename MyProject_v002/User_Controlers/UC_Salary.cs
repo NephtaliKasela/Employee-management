@@ -379,16 +379,16 @@ namespace MyProject_v002.User_Controlers
         public void Check_Amount(Guna2NumericUpDown value)
         {
             // Set all four buttons to the initial color before changing the color of the selected numericUpDown
-            guna2btnAddSalaryToAll.FillColor = Color.WhiteSmoke;
+            guna2btnAddSalaryToAll.FillColor = Color.IndianRed;
             guna2btnAddSalaryToAll.ForeColor = Color.Black;
 
-            guna2btnAddBonusToAll.FillColor = Color.WhiteSmoke;
+            guna2btnAddBonusToAll.FillColor = Color.IndianRed;
             guna2btnAddBonusToAll.ForeColor = Color.Black;
 
-            guna2btnSubstractSalaryToAll.FillColor = Color.WhiteSmoke;
+            guna2btnSubstractSalaryToAll.FillColor = Color.IndianRed;
             guna2btnSubstractSalaryToAll.ForeColor = Color.Black;
 
-            guna2btnSubstractBonusToAll.FillColor = Color.WhiteSmoke;
+            guna2btnSubstractBonusToAll.FillColor = Color.IndianRed;
             guna2btnSubstractBonusToAll.ForeColor = Color.Black;
 
             if (guna2cbxMounth.Text.Length > 0)

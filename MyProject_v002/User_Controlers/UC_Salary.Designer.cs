@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.lblTotalSince = new System.Windows.Forms.Label();
@@ -101,18 +101,18 @@
             this.guna2CustomGradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2CustomGradientPanel1.FillColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel1.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.SystemColors.WindowText;
+            this.guna2CustomGradientPanel1.FillColor3 = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel1.FillColor4 = System.Drawing.SystemColors.WindowText;
             this.guna2CustomGradientPanel1.Location = new System.Drawing.Point(0, 155);
             this.guna2CustomGradientPanel1.Name = "guna2CustomGradientPanel1";
             this.guna2CustomGradientPanel1.Padding = new System.Windows.Forms.Padding(5);
-            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(356, 155);
+            this.guna2CustomGradientPanel1.Size = new System.Drawing.Size(359, 155);
             this.guna2CustomGradientPanel1.TabIndex = 4;
             // 
             // guna2GroupBox1
             // 
-            this.guna2GroupBox1.BorderColor = System.Drawing.Color.White;
-            this.guna2GroupBox1.BorderRadius = 20;
+            this.guna2GroupBox1.BorderColor = System.Drawing.Color.DarkGoldenrod;
+            this.guna2GroupBox1.BorderRadius = 5;
             this.guna2GroupBox1.Controls.Add(this.lblTotalSince);
             this.guna2GroupBox1.Controls.Add(this.label4);
             this.guna2GroupBox1.CustomBorderThickness = new System.Windows.Forms.Padding(0);
@@ -122,13 +122,13 @@
             this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2GroupBox1.Location = new System.Drawing.Point(5, 5);
             this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(346, 145);
+            this.guna2GroupBox1.Size = new System.Drawing.Size(349, 145);
             this.guna2GroupBox1.TabIndex = 0;
             // 
             // lblTotalSince
             // 
             this.lblTotalSince.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotalSince.ForeColor = System.Drawing.Color.White;
+            this.lblTotalSince.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.lblTotalSince.Location = new System.Drawing.Point(20, 62);
             this.lblTotalSince.Name = "lblTotalSince";
             this.lblTotalSince.Size = new System.Drawing.Size(306, 71);
@@ -139,7 +139,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.label4.Location = new System.Drawing.Point(20, 12);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(306, 54);
@@ -154,18 +154,18 @@
             this.guna2CustomGradientPanel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2CustomGradientPanel3.FillColor = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel3.FillColor2 = System.Drawing.Color.Transparent;
-            this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.SystemColors.WindowText;
+            this.guna2CustomGradientPanel3.FillColor3 = System.Drawing.Color.Transparent;
             this.guna2CustomGradientPanel3.FillColor4 = System.Drawing.SystemColors.WindowText;
             this.guna2CustomGradientPanel3.Location = new System.Drawing.Point(0, 0);
             this.guna2CustomGradientPanel3.Name = "guna2CustomGradientPanel3";
             this.guna2CustomGradientPanel3.Padding = new System.Windows.Forms.Padding(5);
-            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(356, 155);
+            this.guna2CustomGradientPanel3.Size = new System.Drawing.Size(359, 155);
             this.guna2CustomGradientPanel3.TabIndex = 3;
             // 
             // guna2GroupBox2
             // 
-            this.guna2GroupBox2.BorderColor = System.Drawing.Color.White;
-            this.guna2GroupBox2.BorderRadius = 20;
+            this.guna2GroupBox2.BorderColor = System.Drawing.Color.DarkGoldenrod;
+            this.guna2GroupBox2.BorderRadius = 5;
             this.guna2GroupBox2.Controls.Add(this.lblTotal);
             this.guna2GroupBox2.Controls.Add(this.label5);
             this.guna2GroupBox2.CustomBorderThickness = new System.Windows.Forms.Padding(0);
@@ -175,13 +175,13 @@
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2GroupBox2.Location = new System.Drawing.Point(5, 5);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
-            this.guna2GroupBox2.Size = new System.Drawing.Size(346, 145);
+            this.guna2GroupBox2.Size = new System.Drawing.Size(349, 145);
             this.guna2GroupBox2.TabIndex = 36;
             // 
             // lblTotal
             // 
             this.lblTotal.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.ForeColor = System.Drawing.Color.White;
+            this.lblTotal.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.lblTotal.Location = new System.Drawing.Point(20, 55);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(306, 80);
@@ -192,7 +192,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.ForeColor = System.Drawing.Color.DarkGoldenrod;
             this.label5.Location = new System.Drawing.Point(20, 9);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(306, 54);
@@ -202,20 +202,20 @@
             // 
             // guna2DataGridViewSalary
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-            this.guna2DataGridViewSalary.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.IndianRed;
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.IndianRed;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            this.guna2DataGridViewSalary.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.guna2DataGridViewSalary.BackgroundColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Salmon;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Salmon;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridViewSalary.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Salmon;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Salmon;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridViewSalary.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.guna2DataGridViewSalary.ColumnHeadersHeight = 66;
             this.guna2DataGridViewSalary.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridViewSalary.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -231,26 +231,26 @@
             this.ClnTotal,
             this.ClnTotalSinceEmployeeStartedJob});
             this.guna2DataGridViewSalary.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridViewSalary.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridViewSalary.DefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridViewSalary.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2DataGridViewSalary.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridViewSalary.Location = new System.Drawing.Point(10, 0);
             this.guna2DataGridViewSalary.Name = "guna2DataGridViewSalary";
             this.guna2DataGridViewSalary.RowHeadersVisible = false;
             this.guna2DataGridViewSalary.RowHeadersWidth = 24;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
-            this.guna2DataGridViewSalary.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.IndianRed;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.IndianRed;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.White;
+            this.guna2DataGridViewSalary.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.guna2DataGridViewSalary.RowTemplate.Height = 50;
             this.guna2DataGridViewSalary.Size = new System.Drawing.Size(1250, 430);
             this.guna2DataGridViewSalary.TabIndex = 0;
@@ -390,10 +390,16 @@
             // guna2NupDwAddSalaryToAll
             // 
             this.guna2NupDwAddSalaryToAll.BackColor = System.Drawing.Color.Transparent;
+            this.guna2NupDwAddSalaryToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2NupDwAddSalaryToAll.BorderRadius = 5;
             this.guna2NupDwAddSalaryToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwAddSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwAddSalaryToAll.Location = new System.Drawing.Point(29, 79);
+            this.guna2NupDwAddSalaryToAll.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
             this.guna2NupDwAddSalaryToAll.Name = "guna2NupDwAddSalaryToAll";
             this.guna2NupDwAddSalaryToAll.Size = new System.Drawing.Size(203, 32);
             this.guna2NupDwAddSalaryToAll.TabIndex = 20;
@@ -403,7 +409,7 @@
             // guna2btnAddSalaryToAll
             // 
             this.guna2btnAddSalaryToAll.BackColor = System.Drawing.Color.IndianRed;
-            this.guna2btnAddSalaryToAll.BorderColor = System.Drawing.Color.IndianRed;
+            this.guna2btnAddSalaryToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnAddSalaryToAll.BorderRadius = 10;
             this.guna2btnAddSalaryToAll.BorderThickness = 1;
             this.guna2btnAddSalaryToAll.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -411,7 +417,7 @@
             this.guna2btnAddSalaryToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnAddSalaryToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnAddSalaryToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnAddSalaryToAll.FillColor = System.Drawing.SystemColors.HighlightText;
+            this.guna2btnAddSalaryToAll.FillColor = System.Drawing.Color.IndianRed;
             this.guna2btnAddSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnAddSalaryToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnAddSalaryToAll.Location = new System.Drawing.Point(238, 79);
@@ -437,14 +443,15 @@
             // 
             this.guna2btnUpdate.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnUpdate.BorderRadius = 5;
+            this.guna2btnUpdate.BorderThickness = 1;
             this.guna2btnUpdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnUpdate.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnUpdate.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnUpdate.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnUpdate.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnUpdate.FillColor = System.Drawing.Color.Gray;
+            this.guna2btnUpdate.FillColor = System.Drawing.Color.IndianRed;
             this.guna2btnUpdate.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2btnUpdate.ForeColor = System.Drawing.Color.White;
+            this.guna2btnUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.guna2btnUpdate.Location = new System.Drawing.Point(13, 273);
             this.guna2btnUpdate.Name = "guna2btnUpdate";
             this.guna2btnUpdate.Size = new System.Drawing.Size(140, 34);
@@ -467,10 +474,16 @@
             // guna2NupDwAddBonusToAll
             // 
             this.guna2NupDwAddBonusToAll.BackColor = System.Drawing.Color.Transparent;
+            this.guna2NupDwAddBonusToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2NupDwAddBonusToAll.BorderRadius = 5;
             this.guna2NupDwAddBonusToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwAddBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwAddBonusToAll.Location = new System.Drawing.Point(24, 78);
+            this.guna2NupDwAddBonusToAll.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
             this.guna2NupDwAddBonusToAll.Name = "guna2NupDwAddBonusToAll";
             this.guna2NupDwAddBonusToAll.Size = new System.Drawing.Size(213, 34);
             this.guna2NupDwAddBonusToAll.TabIndex = 27;
@@ -479,7 +492,7 @@
             // 
             // guna2btnAddBonusToAll
             // 
-            this.guna2btnAddBonusToAll.BorderColor = System.Drawing.Color.IndianRed;
+            this.guna2btnAddBonusToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnAddBonusToAll.BorderRadius = 10;
             this.guna2btnAddBonusToAll.BorderThickness = 1;
             this.guna2btnAddBonusToAll.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -487,7 +500,7 @@
             this.guna2btnAddBonusToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnAddBonusToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnAddBonusToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnAddBonusToAll.FillColor = System.Drawing.SystemColors.HighlightText;
+            this.guna2btnAddBonusToAll.FillColor = System.Drawing.Color.IndianRed;
             this.guna2btnAddBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnAddBonusToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnAddBonusToAll.Location = new System.Drawing.Point(243, 81);
@@ -499,6 +512,7 @@
             // 
             // guna2TxtCurrency
             // 
+            this.guna2TxtCurrency.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TxtCurrency.BorderRadius = 5;
             this.guna2TxtCurrency.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TxtCurrency.DefaultText = "";
@@ -512,6 +526,7 @@
             this.guna2TxtCurrency.Location = new System.Drawing.Point(29, 59);
             this.guna2TxtCurrency.Name = "guna2TxtCurrency";
             this.guna2TxtCurrency.PasswordChar = '\0';
+            this.guna2TxtCurrency.PlaceholderForeColor = System.Drawing.Color.Gray;
             this.guna2TxtCurrency.PlaceholderText = "Here";
             this.guna2TxtCurrency.SelectedText = "";
             this.guna2TxtCurrency.Size = new System.Drawing.Size(116, 32);
@@ -521,6 +536,7 @@
             // guna2cbxMounth
             // 
             this.guna2cbxMounth.BackColor = System.Drawing.Color.Transparent;
+            this.guna2cbxMounth.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2cbxMounth.BorderRadius = 5;
             this.guna2cbxMounth.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2cbxMounth.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
@@ -551,6 +567,7 @@
             // guna2cbxCurrency
             // 
             this.guna2cbxCurrency.BackColor = System.Drawing.Color.Transparent;
+            this.guna2cbxCurrency.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2cbxCurrency.BorderRadius = 5;
             this.guna2cbxCurrency.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2cbxCurrency.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
@@ -574,7 +591,7 @@
             // 
             // guna2btnSubstractBonusToAll
             // 
-            this.guna2btnSubstractBonusToAll.BorderColor = System.Drawing.Color.IndianRed;
+            this.guna2btnSubstractBonusToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnSubstractBonusToAll.BorderRadius = 10;
             this.guna2btnSubstractBonusToAll.BorderThickness = 1;
             this.guna2btnSubstractBonusToAll.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -582,7 +599,7 @@
             this.guna2btnSubstractBonusToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnSubstractBonusToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnSubstractBonusToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnSubstractBonusToAll.FillColor = System.Drawing.SystemColors.HighlightText;
+            this.guna2btnSubstractBonusToAll.FillColor = System.Drawing.Color.IndianRed;
             this.guna2btnSubstractBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnSubstractBonusToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnSubstractBonusToAll.Location = new System.Drawing.Point(243, 180);
@@ -595,10 +612,16 @@
             // guna2NupDwSubstractBonusToAll
             // 
             this.guna2NupDwSubstractBonusToAll.BackColor = System.Drawing.Color.Transparent;
+            this.guna2NupDwSubstractBonusToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2NupDwSubstractBonusToAll.BorderRadius = 5;
             this.guna2NupDwSubstractBonusToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwSubstractBonusToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwSubstractBonusToAll.Location = new System.Drawing.Point(24, 180);
+            this.guna2NupDwSubstractBonusToAll.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
             this.guna2NupDwSubstractBonusToAll.Name = "guna2NupDwSubstractBonusToAll";
             this.guna2NupDwSubstractBonusToAll.Size = new System.Drawing.Size(213, 34);
             this.guna2NupDwSubstractBonusToAll.TabIndex = 40;
@@ -631,7 +654,7 @@
             // 
             // guna2btnSubstractSalaryToAll
             // 
-            this.guna2btnSubstractSalaryToAll.BorderColor = System.Drawing.Color.IndianRed;
+            this.guna2btnSubstractSalaryToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnSubstractSalaryToAll.BorderRadius = 10;
             this.guna2btnSubstractSalaryToAll.BorderThickness = 1;
             this.guna2btnSubstractSalaryToAll.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -639,7 +662,7 @@
             this.guna2btnSubstractSalaryToAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnSubstractSalaryToAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnSubstractSalaryToAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnSubstractSalaryToAll.FillColor = System.Drawing.SystemColors.HighlightText;
+            this.guna2btnSubstractSalaryToAll.FillColor = System.Drawing.Color.IndianRed;
             this.guna2btnSubstractSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnSubstractSalaryToAll.ForeColor = System.Drawing.Color.Black;
             this.guna2btnSubstractSalaryToAll.Location = new System.Drawing.Point(238, 181);
@@ -652,10 +675,16 @@
             // guna2NupDwSubstractSalaryToAll
             // 
             this.guna2NupDwSubstractSalaryToAll.BackColor = System.Drawing.Color.Transparent;
+            this.guna2NupDwSubstractSalaryToAll.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2NupDwSubstractSalaryToAll.BorderRadius = 5;
             this.guna2NupDwSubstractSalaryToAll.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2NupDwSubstractSalaryToAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2NupDwSubstractSalaryToAll.Location = new System.Drawing.Point(29, 181);
+            this.guna2NupDwSubstractSalaryToAll.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
             this.guna2NupDwSubstractSalaryToAll.Name = "guna2NupDwSubstractSalaryToAll";
             this.guna2NupDwSubstractSalaryToAll.Size = new System.Drawing.Size(203, 32);
             this.guna2NupDwSubstractSalaryToAll.TabIndex = 36;
@@ -664,6 +693,7 @@
             // 
             // guna2GroupBox3
             // 
+            this.guna2GroupBox3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GroupBox3.BorderRadius = 5;
             this.guna2GroupBox3.Controls.Add(this.guna2NupDwAddSalaryToAll);
             this.guna2GroupBox3.Controls.Add(this.guna2btnAddSalaryToAll);
@@ -682,6 +712,7 @@
             // 
             // guna2GroupBox4
             // 
+            this.guna2GroupBox4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GroupBox4.BorderRadius = 5;
             this.guna2GroupBox4.Controls.Add(this.label3);
             this.guna2GroupBox4.Controls.Add(this.guna2NupDwAddBonusToAll);
@@ -700,11 +731,13 @@
             // 
             // guna2GroupBox5
             // 
+            this.guna2GroupBox5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GroupBox5.BorderRadius = 5;
             this.guna2GroupBox5.Controls.Add(this.guna2TxtCurrency);
             this.guna2GroupBox5.Controls.Add(this.guna2cbxCurrency);
+            this.guna2GroupBox5.CustomBorderColor = System.Drawing.Color.Silver;
             this.guna2GroupBox5.FillColor = System.Drawing.Color.IndianRed;
-            this.guna2GroupBox5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GroupBox5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2GroupBox5.Location = new System.Drawing.Point(396, 5);
             this.guna2GroupBox5.Name = "guna2GroupBox5";
@@ -715,11 +748,12 @@
             // 
             // guna2GroupBox6
             // 
+            this.guna2GroupBox6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2GroupBox6.BorderRadius = 5;
             this.guna2GroupBox6.Controls.Add(this.guna2cbxMounth);
             this.guna2GroupBox6.CustomBorderThickness = new System.Windows.Forms.Padding(0, 30, 0, 0);
             this.guna2GroupBox6.FillColor = System.Drawing.Color.IndianRed;
-            this.guna2GroupBox6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2GroupBox6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
             this.guna2GroupBox6.Location = new System.Drawing.Point(396, 163);
             this.guna2GroupBox6.Name = "guna2GroupBox6";
@@ -734,9 +768,9 @@
             this.panel1.Controls.Add(this.guna2CustomGradientPanel3);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(920, 0);
+            this.panel1.Location = new System.Drawing.Point(917, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(356, 746);
+            this.panel1.Size = new System.Drawing.Size(359, 746);
             this.panel1.TabIndex = 46;
             // 
             // panel2
@@ -754,7 +788,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.label2.Location = new System.Drawing.Point(34, 67);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(164, 37);
