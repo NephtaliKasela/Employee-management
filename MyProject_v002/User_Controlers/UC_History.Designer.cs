@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DataGridViewHistory = new Guna.UI2.WinForms.Guna2DataGridView();
             this.ClName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -47,8 +47,10 @@
             this.guna2btnRepportUserConnected = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnRepportAll = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnRepportEmpUpdated = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridViewHistory)).BeginInit();
+            this.guna2Panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -64,20 +66,20 @@
             // 
             // guna2DataGridViewHistory
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Aqua;
-            this.guna2DataGridViewHistory.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Aqua;
+            this.guna2DataGridViewHistory.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle6;
             this.guna2DataGridViewHistory.BackgroundColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DarkTurquoise;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.DarkTurquoise;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridViewHistory.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.DarkTurquoise;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.DarkTurquoise;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridViewHistory.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.guna2DataGridViewHistory.ColumnHeadersHeight = 40;
             this.guna2DataGridViewHistory.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.guna2DataGridViewHistory.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -88,34 +90,34 @@
             this.ClnRaison,
             this.ClnDate});
             this.guna2DataGridViewHistory.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridViewHistory.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.guna2DataGridViewHistory.DefaultCellStyle = dataGridViewCellStyle8;
             this.guna2DataGridViewHistory.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2DataGridViewHistory.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.guna2DataGridViewHistory.Location = new System.Drawing.Point(0, 0);
             this.guna2DataGridViewHistory.Name = "guna2DataGridViewHistory";
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Olive;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Olive;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridViewHistory.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.Olive;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.Olive;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.guna2DataGridViewHistory.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
             this.guna2DataGridViewHistory.RowHeadersVisible = false;
             this.guna2DataGridViewHistory.RowHeadersWidth = 35;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.DarkCyan;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Aqua;
-            this.guna2DataGridViewHistory.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.DarkCyan;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.Aqua;
+            this.guna2DataGridViewHistory.RowsDefaultCellStyle = dataGridViewCellStyle10;
             this.guna2DataGridViewHistory.RowTemplate.Height = 50;
             this.guna2DataGridViewHistory.Size = new System.Drawing.Size(959, 534);
             this.guna2DataGridViewHistory.TabIndex = 0;
@@ -179,44 +181,47 @@
             // 
             // guna2btnRepportEmpAdded
             // 
-            this.guna2btnRepportEmpAdded.BorderRadius = 10;
-            this.guna2btnRepportEmpAdded.CheckedState.FillColor = System.Drawing.Color.Teal;
+            this.guna2btnRepportEmpAdded.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2btnRepportEmpAdded.CheckedState.FillColor = System.Drawing.Color.DarkCyan;
             this.guna2btnRepportEmpAdded.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnRepportEmpAdded.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportEmpAdded.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportEmpAdded.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnRepportEmpAdded.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2btnRepportEmpAdded.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2btnRepportEmpAdded.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnRepportEmpAdded.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnRepportEmpAdded.ForeColor = System.Drawing.Color.White;
-            this.guna2btnRepportEmpAdded.Location = new System.Drawing.Point(192, 11);
+            this.guna2btnRepportEmpAdded.Location = new System.Drawing.Point(356, 0);
             this.guna2btnRepportEmpAdded.Name = "guna2btnRepportEmpAdded";
-            this.guna2btnRepportEmpAdded.Size = new System.Drawing.Size(270, 45);
+            this.guna2btnRepportEmpAdded.Size = new System.Drawing.Size(270, 44);
             this.guna2btnRepportEmpAdded.TabIndex = 1;
             this.guna2btnRepportEmpAdded.Text = "Employees that were added";
             this.guna2btnRepportEmpAdded.Click += new System.EventHandler(this.guna2btnRepportEmpAdded_Click);
             // 
             // guna2btnRepportEmpDeleted
             // 
-            this.guna2btnRepportEmpDeleted.BorderRadius = 10;
-            this.guna2btnRepportEmpDeleted.CheckedState.FillColor = System.Drawing.Color.Teal;
+            this.guna2btnRepportEmpDeleted.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2btnRepportEmpDeleted.CheckedState.FillColor = System.Drawing.Color.DarkCyan;
             this.guna2btnRepportEmpDeleted.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnRepportEmpDeleted.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportEmpDeleted.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportEmpDeleted.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnRepportEmpDeleted.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2btnRepportEmpDeleted.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2btnRepportEmpDeleted.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnRepportEmpDeleted.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnRepportEmpDeleted.ForeColor = System.Drawing.Color.White;
-            this.guna2btnRepportEmpDeleted.Location = new System.Drawing.Point(487, 11);
+            this.guna2btnRepportEmpDeleted.Location = new System.Drawing.Point(896, 0);
             this.guna2btnRepportEmpDeleted.Name = "guna2btnRepportEmpDeleted";
-            this.guna2btnRepportEmpDeleted.Size = new System.Drawing.Size(270, 45);
+            this.guna2btnRepportEmpDeleted.Size = new System.Drawing.Size(270, 44);
             this.guna2btnRepportEmpDeleted.TabIndex = 2;
             this.guna2btnRepportEmpDeleted.Text = "Employees that were deleted";
             this.guna2btnRepportEmpDeleted.Click += new System.EventHandler(this.guna2btnRepportEmpDeleted_Click);
             // 
             // guna2TxtSearch
             // 
+            this.guna2TxtSearch.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TxtSearch.BorderRadius = 10;
             this.guna2TxtSearch.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2TxtSearch.DefaultText = "";
@@ -225,92 +230,107 @@
             this.guna2TxtSearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TxtSearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2TxtSearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtSearch.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2TxtSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TxtSearch.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TxtSearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtSearch.Location = new System.Drawing.Point(81, 94);
+            this.guna2TxtSearch.Location = new System.Drawing.Point(78, 89);
             this.guna2TxtSearch.Name = "guna2TxtSearch";
             this.guna2TxtSearch.PasswordChar = '\0';
             this.guna2TxtSearch.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2TxtSearch.PlaceholderText = "Search";
             this.guna2TxtSearch.SelectedText = "";
-            this.guna2TxtSearch.Size = new System.Drawing.Size(349, 36);
+            this.guna2TxtSearch.Size = new System.Drawing.Size(393, 48);
             this.guna2TxtSearch.TabIndex = 3;
             this.guna2TxtSearch.TextChanged += new System.EventHandler(this.guna2TxtSearch_TextChanged);
             // 
             // guna2btnRepportUserConnected
             // 
-            this.guna2btnRepportUserConnected.BorderRadius = 10;
-            this.guna2btnRepportUserConnected.CheckedState.FillColor = System.Drawing.Color.DimGray;
+            this.guna2btnRepportUserConnected.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2btnRepportUserConnected.CheckedState.FillColor = System.Drawing.Color.DarkCyan;
             this.guna2btnRepportUserConnected.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnRepportUserConnected.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportUserConnected.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportUserConnected.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnRepportUserConnected.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2btnRepportUserConnected.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2btnRepportUserConnected.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnRepportUserConnected.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnRepportUserConnected.ForeColor = System.Drawing.Color.White;
-            this.guna2btnRepportUserConnected.Location = new System.Drawing.Point(1077, 11);
+            this.guna2btnRepportUserConnected.Location = new System.Drawing.Point(0, 0);
             this.guna2btnRepportUserConnected.Name = "guna2btnRepportUserConnected";
-            this.guna2btnRepportUserConnected.Size = new System.Drawing.Size(270, 45);
+            this.guna2btnRepportUserConnected.Size = new System.Drawing.Size(270, 44);
             this.guna2btnRepportUserConnected.TabIndex = 4;
             this.guna2btnRepportUserConnected.Text = "Users that were connected";
             this.guna2btnRepportUserConnected.Click += new System.EventHandler(this.guna2btnRepportUserConnected_Click);
             // 
             // guna2btnRepportAll
             // 
-            this.guna2btnRepportAll.BorderRadius = 10;
-            this.guna2btnRepportAll.CheckedState.FillColor = System.Drawing.Color.Teal;
+            this.guna2btnRepportAll.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2btnRepportAll.CheckedState.FillColor = System.Drawing.Color.DarkCyan;
             this.guna2btnRepportAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnRepportAll.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportAll.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportAll.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnRepportAll.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2btnRepportAll.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2btnRepportAll.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnRepportAll.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnRepportAll.ForeColor = System.Drawing.Color.White;
-            this.guna2btnRepportAll.Location = new System.Drawing.Point(81, 11);
+            this.guna2btnRepportAll.Location = new System.Drawing.Point(270, 0);
             this.guna2btnRepportAll.Name = "guna2btnRepportAll";
-            this.guna2btnRepportAll.Size = new System.Drawing.Size(86, 45);
+            this.guna2btnRepportAll.Size = new System.Drawing.Size(86, 44);
             this.guna2btnRepportAll.TabIndex = 5;
             this.guna2btnRepportAll.Text = "All";
             this.guna2btnRepportAll.Click += new System.EventHandler(this.guna2btnRepportAll_Click);
             // 
             // guna2btnRepportEmpUpdated
             // 
-            this.guna2btnRepportEmpUpdated.BorderRadius = 10;
-            this.guna2btnRepportEmpUpdated.CheckedState.FillColor = System.Drawing.Color.Teal;
+            this.guna2btnRepportEmpUpdated.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.guna2btnRepportEmpUpdated.CheckedState.FillColor = System.Drawing.Color.DarkCyan;
             this.guna2btnRepportEmpUpdated.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2btnRepportEmpUpdated.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportEmpUpdated.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2btnRepportEmpUpdated.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2btnRepportEmpUpdated.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2btnRepportEmpUpdated.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2btnRepportEmpUpdated.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2btnRepportEmpUpdated.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2btnRepportEmpUpdated.ForeColor = System.Drawing.Color.White;
-            this.guna2btnRepportEmpUpdated.Location = new System.Drawing.Point(782, 11);
+            this.guna2btnRepportEmpUpdated.Location = new System.Drawing.Point(626, 0);
             this.guna2btnRepportEmpUpdated.Name = "guna2btnRepportEmpUpdated";
-            this.guna2btnRepportEmpUpdated.Size = new System.Drawing.Size(270, 45);
+            this.guna2btnRepportEmpUpdated.Size = new System.Drawing.Size(270, 44);
             this.guna2btnRepportEmpUpdated.TabIndex = 6;
             this.guna2btnRepportEmpUpdated.Text = "Employees that were updated";
             this.guna2btnRepportEmpUpdated.Click += new System.EventHandler(this.guna2btnRepportEmpUpdated_Click);
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2Panel2.Controls.Add(this.guna2btnRepportEmpDeleted);
+            this.guna2Panel2.Controls.Add(this.guna2btnRepportEmpUpdated);
+            this.guna2Panel2.Controls.Add(this.guna2btnRepportEmpAdded);
+            this.guna2Panel2.Controls.Add(this.guna2btnRepportAll);
+            this.guna2Panel2.Controls.Add(this.guna2btnRepportUserConnected);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.Size = new System.Drawing.Size(1120, 44);
+            this.guna2Panel2.TabIndex = 1;
             // 
             // UC_History
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
-            this.Controls.Add(this.guna2btnRepportEmpUpdated);
-            this.Controls.Add(this.guna2btnRepportAll);
-            this.Controls.Add(this.guna2btnRepportUserConnected);
+            this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2TxtSearch);
-            this.Controls.Add(this.guna2btnRepportEmpDeleted);
-            this.Controls.Add(this.guna2btnRepportEmpAdded);
             this.Controls.Add(this.guna2Panel1);
             this.Name = "UC_History";
             this.Size = new System.Drawing.Size(1120, 746);
             this.Load += new System.EventHandler(this.UC_History_Load);
             this.guna2Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridViewHistory)).EndInit();
+            this.guna2Panel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -331,5 +351,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ClnID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ClnRaison;
         private System.Windows.Forms.DataGridViewTextBoxColumn ClnDate;
+        private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
     }
 }

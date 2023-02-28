@@ -38,13 +38,14 @@
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2TxtSearchByStartJob = new Guna.UI2.WinForms.Guna2TextBox();
+            this.guna2TxtSearchByEndJob = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2btnUpdate = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnDelete = new Guna.UI2.WinForms.Guna2Button();
             this.guna2cbxDepartment = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2txtSearchByName = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TxtSearchByStartJob = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TxtSearchByEndJob = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2DataGridView = new Guna.UI2.WinForms.Guna2DataGridView();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,10 +97,10 @@
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2GroupBox3 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.lblCountry = new System.Windows.Forms.Label();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
+            this.guna2Panel7.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView)).BeginInit();
@@ -119,7 +120,6 @@
             this.guna2GroupBox2.SuspendLayout();
             this.guna2Panel4.SuspendLayout();
             this.guna2GroupBox3.SuspendLayout();
-            this.guna2Panel7.SuspendLayout();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -169,6 +169,66 @@
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(148, 169);
             this.guna2Panel5.TabIndex = 18;
+            // 
+            // guna2Panel7
+            // 
+            this.guna2Panel7.Controls.Add(this.guna2TxtSearchByStartJob);
+            this.guna2Panel7.Controls.Add(this.guna2TxtSearchByEndJob);
+            this.guna2Panel7.Dock = System.Windows.Forms.DockStyle.Right;
+            this.guna2Panel7.Location = new System.Drawing.Point(-84, 0);
+            this.guna2Panel7.Name = "guna2Panel7";
+            this.guna2Panel7.Size = new System.Drawing.Size(232, 127);
+            this.guna2Panel7.TabIndex = 20;
+            // 
+            // guna2TxtSearchByStartJob
+            // 
+            this.guna2TxtSearchByStartJob.BorderColor = System.Drawing.Color.SlateGray;
+            this.guna2TxtSearchByStartJob.BorderRadius = 10;
+            this.guna2TxtSearchByStartJob.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TxtSearchByStartJob.DefaultText = "";
+            this.guna2TxtSearchByStartJob.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TxtSearchByStartJob.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TxtSearchByStartJob.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TxtSearchByStartJob.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TxtSearchByStartJob.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TxtSearchByStartJob.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
+            this.guna2TxtSearchByStartJob.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.guna2TxtSearchByStartJob.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TxtSearchByStartJob.Location = new System.Drawing.Point(29, 34);
+            this.guna2TxtSearchByStartJob.Name = "guna2TxtSearchByStartJob";
+            this.guna2TxtSearchByStartJob.PasswordChar = '\0';
+            this.guna2TxtSearchByStartJob.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TxtSearchByStartJob.PlaceholderText = "Start job";
+            this.guna2TxtSearchByStartJob.SelectedText = "";
+            this.guna2TxtSearchByStartJob.Size = new System.Drawing.Size(175, 36);
+            this.guna2TxtSearchByStartJob.TabIndex = 15;
+            this.guna2TxtSearchByStartJob.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TxtSearchByStartJob.TextChanged += new System.EventHandler(this.guna2TxtSearchByStartJob_TextChanged);
+            // 
+            // guna2TxtSearchByEndJob
+            // 
+            this.guna2TxtSearchByEndJob.BorderColor = System.Drawing.Color.DarkGoldenrod;
+            this.guna2TxtSearchByEndJob.BorderRadius = 10;
+            this.guna2TxtSearchByEndJob.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.guna2TxtSearchByEndJob.DefaultText = "";
+            this.guna2TxtSearchByEndJob.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.guna2TxtSearchByEndJob.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.guna2TxtSearchByEndJob.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TxtSearchByEndJob.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.guna2TxtSearchByEndJob.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TxtSearchByEndJob.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2TxtSearchByEndJob.ForeColor = System.Drawing.Color.DarkGoldenrod;
+            this.guna2TxtSearchByEndJob.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.guna2TxtSearchByEndJob.Location = new System.Drawing.Point(29, 82);
+            this.guna2TxtSearchByEndJob.Name = "guna2TxtSearchByEndJob";
+            this.guna2TxtSearchByEndJob.PasswordChar = '\0';
+            this.guna2TxtSearchByEndJob.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TxtSearchByEndJob.PlaceholderText = "End job";
+            this.guna2TxtSearchByEndJob.SelectedText = "";
+            this.guna2TxtSearchByEndJob.Size = new System.Drawing.Size(175, 36);
+            this.guna2TxtSearchByEndJob.TabIndex = 16;
+            this.guna2TxtSearchByEndJob.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TxtSearchByEndJob.TextChanged += new System.EventHandler(this.guna2TxtSearchByEndJob_TextChanged);
             // 
             // guna2Panel6
             // 
@@ -226,15 +286,15 @@
             // guna2cbxDepartment
             // 
             this.guna2cbxDepartment.BackColor = System.Drawing.Color.Transparent;
-            this.guna2cbxDepartment.BorderColor = System.Drawing.Color.SlateGray;
+            this.guna2cbxDepartment.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2cbxDepartment.BorderRadius = 5;
             this.guna2cbxDepartment.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2cbxDepartment.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
             this.guna2cbxDepartment.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.guna2cbxDepartment.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2cbxDepartment.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2cbxDepartment.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2cbxDepartment.ForeColor = System.Drawing.Color.SlateGray;
+            this.guna2cbxDepartment.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
+            this.guna2cbxDepartment.ForeColor = System.Drawing.Color.Gray;
             this.guna2cbxDepartment.ItemHeight = 30;
             this.guna2cbxDepartment.Items.AddRange(new object[] {
             ""});
@@ -246,7 +306,7 @@
             // 
             // guna2txtSearchByName
             // 
-            this.guna2txtSearchByName.BorderColor = System.Drawing.Color.SlateGray;
+            this.guna2txtSearchByName.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2txtSearchByName.BorderRadius = 5;
             this.guna2txtSearchByName.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.guna2txtSearchByName.DefaultText = "";
@@ -255,68 +315,18 @@
             this.guna2txtSearchByName.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2txtSearchByName.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.guna2txtSearchByName.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2txtSearchByName.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.guna2txtSearchByName.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold);
             this.guna2txtSearchByName.ForeColor = System.Drawing.Color.SlateGray;
             this.guna2txtSearchByName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2txtSearchByName.Location = new System.Drawing.Point(23, 34);
             this.guna2txtSearchByName.Name = "guna2txtSearchByName";
             this.guna2txtSearchByName.PasswordChar = '\0';
             this.guna2txtSearchByName.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2txtSearchByName.PlaceholderText = "Search the name";
+            this.guna2txtSearchByName.PlaceholderText = "Search";
             this.guna2txtSearchByName.SelectedText = "";
             this.guna2txtSearchByName.Size = new System.Drawing.Size(323, 36);
             this.guna2txtSearchByName.TabIndex = 4;
             this.guna2txtSearchByName.TextChanged += new System.EventHandler(this.guna2txtSearchByName_TextChanged_1);
-            // 
-            // guna2TxtSearchByStartJob
-            // 
-            this.guna2TxtSearchByStartJob.BorderColor = System.Drawing.Color.SlateGray;
-            this.guna2TxtSearchByStartJob.BorderRadius = 10;
-            this.guna2TxtSearchByStartJob.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TxtSearchByStartJob.DefaultText = "";
-            this.guna2TxtSearchByStartJob.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TxtSearchByStartJob.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TxtSearchByStartJob.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TxtSearchByStartJob.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TxtSearchByStartJob.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtSearchByStartJob.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TxtSearchByStartJob.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2TxtSearchByStartJob.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtSearchByStartJob.Location = new System.Drawing.Point(29, 34);
-            this.guna2TxtSearchByStartJob.Name = "guna2TxtSearchByStartJob";
-            this.guna2TxtSearchByStartJob.PasswordChar = '\0';
-            this.guna2TxtSearchByStartJob.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TxtSearchByStartJob.PlaceholderText = "Start job";
-            this.guna2TxtSearchByStartJob.SelectedText = "";
-            this.guna2TxtSearchByStartJob.Size = new System.Drawing.Size(175, 36);
-            this.guna2TxtSearchByStartJob.TabIndex = 15;
-            this.guna2TxtSearchByStartJob.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2TxtSearchByStartJob.TextChanged += new System.EventHandler(this.guna2TxtSearchByStartJob_TextChanged);
-            // 
-            // guna2TxtSearchByEndJob
-            // 
-            this.guna2TxtSearchByEndJob.BorderColor = System.Drawing.Color.DarkGoldenrod;
-            this.guna2TxtSearchByEndJob.BorderRadius = 10;
-            this.guna2TxtSearchByEndJob.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TxtSearchByEndJob.DefaultText = "";
-            this.guna2TxtSearchByEndJob.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TxtSearchByEndJob.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TxtSearchByEndJob.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TxtSearchByEndJob.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TxtSearchByEndJob.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtSearchByEndJob.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TxtSearchByEndJob.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.guna2TxtSearchByEndJob.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtSearchByEndJob.Location = new System.Drawing.Point(29, 82);
-            this.guna2TxtSearchByEndJob.Name = "guna2TxtSearchByEndJob";
-            this.guna2TxtSearchByEndJob.PasswordChar = '\0';
-            this.guna2TxtSearchByEndJob.PlaceholderForeColor = System.Drawing.Color.Gray;
-            this.guna2TxtSearchByEndJob.PlaceholderText = "End job";
-            this.guna2TxtSearchByEndJob.SelectedText = "";
-            this.guna2TxtSearchByEndJob.Size = new System.Drawing.Size(175, 36);
-            this.guna2TxtSearchByEndJob.TabIndex = 16;
-            this.guna2TxtSearchByEndJob.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.guna2TxtSearchByEndJob.TextChanged += new System.EventHandler(this.guna2TxtSearchByEndJob_TextChanged);
             // 
             // guna2Panel3
             // 
@@ -1087,16 +1097,6 @@
             this.lblCountry.TabIndex = 7;
             this.lblCountry.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // guna2Panel7
-            // 
-            this.guna2Panel7.Controls.Add(this.guna2TxtSearchByStartJob);
-            this.guna2Panel7.Controls.Add(this.guna2TxtSearchByEndJob);
-            this.guna2Panel7.Dock = System.Windows.Forms.DockStyle.Right;
-            this.guna2Panel7.Location = new System.Drawing.Point(-84, 0);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(232, 127);
-            this.guna2Panel7.TabIndex = 20;
-            // 
             // UC_Employees
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1110,6 +1110,7 @@
             this.guna2Panel1.ResumeLayout(false);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.guna2Panel5.ResumeLayout(false);
+            this.guna2Panel7.ResumeLayout(false);
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView)).EndInit();
@@ -1129,7 +1130,6 @@
             this.guna2GroupBox2.ResumeLayout(false);
             this.guna2Panel4.ResumeLayout(false);
             this.guna2GroupBox3.ResumeLayout(false);
-            this.guna2Panel7.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

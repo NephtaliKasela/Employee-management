@@ -56,6 +56,7 @@ namespace MyProject_v002.User_Controlers
                             Salary_ofThe_employee_to_Update.Clear();
                             Salary_ofThe_employee_to_Update.Add(emp);
                             guna2btnUpdate.FillColor = Color.Teal;
+                            guna2btnUpdate.ForeColor = Color.White;
                         }
                     }
                 }
