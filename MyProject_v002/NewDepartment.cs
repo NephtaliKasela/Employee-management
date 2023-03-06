@@ -38,13 +38,13 @@ namespace MyProject_v002
                 repository.Save_Departments(repository.Get_Departmnts(), "Employees/Departments.txt");
                 listBox.Items.Add(guna2TxtDepartmt.Text);
                 lblWarning.Text = "Department was added successfully !";
-                lblWarning.ForeColor = Color.Green;
+                lblWarning.ForeColor = Color.Lime;
                 guna2TxtDepartmt.Text = string.Empty;
             }
             else
             {
                 lblWarning.Text = "Impossible to add !";
-                lblWarning.ForeColor = Color.Red;
+                lblWarning.ForeColor = Color.MediumVioletRed;
             }
         }
 
@@ -58,9 +58,14 @@ namespace MyProject_v002
                 listBox.Items.Remove(listBox.SelectedItem.ToString());
 
                 lblWarning.Text = "Department was deleted successfully !";
-                lblWarning.ForeColor = Color.Green;
+                lblWarning.ForeColor = Color.Lime;
             }
             else MessageBox.Show("Select the department", "Warning !");
+
+        }
+
+        private void guna2TxtDepartmt_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }
