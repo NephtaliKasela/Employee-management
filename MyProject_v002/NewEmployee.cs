@@ -117,7 +117,9 @@ namespace MyProject_v002
 
                 if (openFileDialog1.FileName != string.Empty)
                 {
-                    guna2btnPicture.BackColor = Color.Green;
+                    guna2btnPicture.BorderColor = Color.Lime;
+                    guna2btnPicture.ForeColor = Color.Lime;
+                    guna2btnPicture.FillColor = Color.White;
                     photo = openFileDialog1.FileName;
                 }
             }
@@ -174,12 +176,12 @@ namespace MyProject_v002
             Warning();
             if (textBox.Text.Trim() == string.Empty || textBox.Text.Trim().Contains("\t") || textBox.Text.Trim().Contains("\n"))
             {
-                textBox.BorderColor = Color.Red;
+                textBox.BorderColor = Color.DeepPink;
                 return false;
             }
             else
             {
-                textBox.BorderColor = Color.Green;
+                textBox.BorderColor = Color.Lime;
                 return true;
             }
         }
@@ -189,12 +191,12 @@ namespace MyProject_v002
             Warning();
             if (comboBox.Text == string.Empty)
             {
-                comboBox.BorderColor = Color.Red;
+                comboBox.BorderColor = Color.DeepPink;
                 return false;
             }
             else
             {
-                comboBox.BorderColor = Color.Green;
+                comboBox.BorderColor = Color.Lime;
                 return true;
             }
         }
@@ -207,7 +209,7 @@ namespace MyProject_v002
 
             if (date.Text.Trim() == String.Empty || date.Text.Trim().Contains("\t") || date.Text.Trim().Contains("\n"))
             {
-                date.BackColor = Color.Red;
+                date.BorderColor = Color.DeepPink;
             }
             else if (date.Text.Length == 10)
             {
@@ -218,19 +220,19 @@ namespace MyProject_v002
                 }
                 if (count == 2)
                 {
-                    date.BackColor = Color.Green;
+                    date.BorderColor = Color.Lime;
                     return true;
                 }
                 else
                 {
-                    date.BackColor = Color.Red;
+                    date.BorderColor = Color.DeepPink;
                     MessageBox.Show("Example: DD.MM.YYY\n\t01.01.1919", "Info");
                 }
             }
             else
             {
                 if (date.Text.Length > 10) MessageBox.Show("Example:\n\t01.01.1919", "Info");
-                date.BackColor = Color.Red;
+                date.BorderColor = Color.DeepPink;
             }
             return false;
         }
