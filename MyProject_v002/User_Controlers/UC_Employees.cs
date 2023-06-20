@@ -181,7 +181,7 @@ namespace MyProject_v002.User_Controlers
         {
             if (lblName.Text.Length > 0)
             {
-                File.WriteAllText("Employees/Deleted_Employees.txt", "");
+                System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
 
                 repository.Add_Employee_ToDelete(employee_To_Delete_or_Update);
                 repository.Save_Deleted_Employees("Employees/Deleted_Employees.txt", repository.Get_Deleted_Employee());

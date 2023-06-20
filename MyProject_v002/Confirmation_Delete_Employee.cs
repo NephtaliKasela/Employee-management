@@ -44,7 +44,7 @@ namespace MyProject_v002
                         repository.SaveEmployeesIdentities("Employees/inputEmployees.txt", repository.GetEmployees());
                         repository.Track_Employees("Employees/Track_Deleted_Employees.txt", "Employees/History.txt", repository.Get_History_of_Deleted_Employee(), "delete");
 
-                        File.WriteAllText("Employees/Deleted_Employees.txt", "");
+                        System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
                         this.Close();
                         MessageBox.Show("Successful !!!");
                         return;
@@ -55,7 +55,7 @@ namespace MyProject_v002
 
         private void guna2btnNotDelete_Click(object sender, EventArgs e)
         {
-            File.WriteAllText("Employees/Deleted_Employees.txt", "");
+            System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
             this.Close();
         }
     }

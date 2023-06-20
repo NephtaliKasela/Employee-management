@@ -28,6 +28,8 @@ namespace MyProject_v002
 
         public Form1()
         {
+            Fls file = new Fls();
+            file.Departement();
             LogIn lg = new LogIn();
             lg.ShowDialog();
 
