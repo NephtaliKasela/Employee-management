@@ -18,6 +18,7 @@ namespace MyProject_v002.User_Controlers
     {
         User_Repository user_repository = new User_Repository();
         User userConnected = new User();
+        Fls fls = new Fls();
         public UC_User()
         {
             InitializeComponent();
@@ -25,12 +26,17 @@ namespace MyProject_v002.User_Controlers
 
         private void UC_User_Load(object sender, EventArgs e)
         {
-            guna2picbxBackground.Load("Images/matrix-g9ec227521_1920.jpg");
+            try
+            {
+                guna2picbxBackground.Load("Images/matrix-g9ec227521_1920.jpg");
+            }
+            catch { }
 
             Display_theName_of_the_User();
 
             // Get all user ADMIN and print them
-            user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+            //user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+            user_repository.Read_Users(fls.ADMIN_UserName_and_password());
             if (user_repository.Get_Users().Count > 0)
             {
                 foreach (User user in user_repository.Get_Users())
@@ -40,7 +46,8 @@ namespace MyProject_v002.User_Controlers
             }
 
             // Get all SIMPLE USER and print them
-            user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+            //user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+            user_repository.Read_Users(fls.SIMPLE_USER_UserName_and_password());
             if (user_repository.Get_Users().Count > 0)
             {
                 foreach (User user in user_repository.Get_Users())
@@ -106,12 +113,14 @@ namespace MyProject_v002.User_Controlers
             user_repository.Save_Users(path, users);
             MessageBox.Show($"'{name.Text}' was added successfully !", "INfo");
         }
-
+        
         public bool AddUser(string userType)
         {
             if (userType.ToLower() == "admin")
             {
-                user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                //user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                user_repository.Read_Users(fls.ADMIN_UserName_and_password());
+
                 if (user_repository.Get_Users().Count > 0)
                 {
                     bool flag = false;
@@ -129,19 +138,22 @@ namespace MyProject_v002.User_Controlers
                     }
                     if (flag == false)
                     {
-                        SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/ADMIN_UserName_and_password.txt");
+                        //SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/ADMIN_UserName_and_password.txt");
+                        SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), fls.ADMIN_UserName_and_password());
                         return true;
                     }
                 }
                 else
                 {
-                    SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/ADMIN_UserName_and_password.txt");
+                    //SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/ADMIN_UserName_and_password.txt");
+                    SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), fls.ADMIN_UserName_and_password());
                     return true;
                 }
             }
             else if (userType.ToLower() == "simple user")
             {
-                user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                //user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                user_repository.Read_Users(fls.SIMPLE_USER_UserName_and_password());
                 if (user_repository.Get_Users().Count > 0)
                 {
                     bool flag = false;
@@ -159,13 +171,15 @@ namespace MyProject_v002.User_Controlers
                     }
                     if (flag == false)
                     {
-                        SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/SIMPLE_USER_UserName_and_password.txt");
+                        //SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/SIMPLE_USER_UserName_and_password.txt");
+                        SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), fls.SIMPLE_USER_UserName_and_password());
                         return true;
                     }
                 }
                 else
                 { 
-                    SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/SIMPLE_USER_UserName_and_password.txt");
+                    //SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), "Users/SIMPLE_USER_UserName_and_password.txt");
+                    SaveUser(guna2txtUserName, guna2txtUserPassword, user_repository.Get_Users(), fls.SIMPLE_USER_UserName_and_password());
                     return true;
                 }
             }
@@ -175,9 +189,11 @@ namespace MyProject_v002.User_Controlers
         // Display the name of the user who is connected
         public void Display_theName_of_the_User()
         {
-            user_repository.Read_Password("Users/User_Password_Connected.txt");
+            //user_repository.Read_Password("Users/User_Password_Connected.txt");
+            //user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
 
-            user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+            user_repository.Read_Password(fls.User_Password_Connected());
+            user_repository.Read_Users(fls.ADMIN_UserName_and_password());
 
             foreach (User user in user_repository.Get_Users())
             {
@@ -235,7 +251,8 @@ namespace MyProject_v002.User_Controlers
             {
                 if(guna2cbxUserADMIN.Text.Length > 0)
                 {
-                    user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                    //user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                    user_repository.Read_Users(fls.ADMIN_UserName_and_password());
                     for (int i = 0; i < user_repository.Get_Users().Count; i++)
                     {
                         if (user_repository.Get_Users()[i].Name.ToLower() == guna2cbxUserADMIN.Text.ToLower())
@@ -250,7 +267,8 @@ namespace MyProject_v002.User_Controlers
                             {
                                 string name = user_repository.Get_Users()[i].Name;
                                 user_repository.Delete_User(user_repository.Get_Users()[i]);
-                                user_repository.Save_Users("Users/ADMIN_UserName_and_password.txt", user_repository.Get_Users());
+                                //user_repository.Save_Users("Users/ADMIN_UserName_and_password.txt", user_repository.Get_Users());
+                                user_repository.Save_Users(fls.ADMIN_UserName_and_password(), user_repository.Get_Users());
                                 MessageBox.Show($"'{name}' was deleted successfully !", "Info");
                                 guna2cbxUserADMIN.Items.Remove(name);
                                 break;
@@ -267,14 +285,17 @@ namespace MyProject_v002.User_Controlers
             {
                 if (guna2cbxUser_SIMPLE_USER.Text.Length > 0)
                 {
-                    user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                    //user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                    user_repository.Read_Users(fls.SIMPLE_USER_UserName_and_password());
                     for (int i = 0; i < user_repository.Get_Users().Count; i++)
                     {
                         if (user_repository.Get_Users()[i].Name.ToLower() == guna2cbxUser_SIMPLE_USER.Text.ToLower())
                         {
                             string name = user_repository.Get_Users()[i].Name;
                             user_repository.Delete_User(user_repository.Get_Users()[i]);
-                            user_repository.Save_Users("Users/SIMPLE_USER_UserName_and_password.txt", user_repository.Get_Users());
+
+                            //user_repository.Save_Users("Users/SIMPLE_USER_UserName_and_password.txt", user_repository.Get_Users());
+                            user_repository.Save_Users(fls.SIMPLE_USER_UserName_and_password(), user_repository.Get_Users());
                             MessageBox.Show($"'{name}' was deleted successfully !", "Info");
                             guna2cbxUser_SIMPLE_USER.Items.Remove(name);
                             break;

@@ -16,6 +16,7 @@ namespace MyProject_v002.User_Controlers
     public partial class UC_History : UserControl
     {
         public Repository repository = new Repository();
+        Fls fls = new Fls();
         public UC_History()
         {
             InitializeComponent();
@@ -24,7 +25,8 @@ namespace MyProject_v002.User_Controlers
         // if the user controller is loaded, open the history file and print the all history of employees
         private void UC_History_Load(object sender, EventArgs e)
         {
-            repository.ReadHistory("Employees/History.txt");
+            //repository.ReadHistory("Employees/History.txt");
+            repository.ReadHistory(fls.History());
             repository.Get_Employees_History();
 
             guna2btnRepportAll_Click(sender, e);

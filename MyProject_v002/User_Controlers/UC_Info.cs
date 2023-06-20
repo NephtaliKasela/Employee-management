@@ -20,13 +20,18 @@ namespace MyProject_v002.User_Controlers
         private void UC_Info_Load(object sender, EventArgs e)
         {
             lblCreatorInfo.Text = "'STEFF Control' was created by NEPHTALI KASELA TSHINYENGO and he is from Congo DRC. Student at the university YKSUG (Yanka kupala State University of Grodno) in Belarus.";
-            guna2cpicbxCreator.Load("Images/IMG_20221102_205710_307.jpg");
-            guna2PicBxBacground.Load("Images/wp1867861.jpg");
-            guna2cbtnWhatsApp.Image = Image.FromFile("Logos/whatsapp.png");
-            guna2cbtnFacebook.Image = Image.FromFile("Logos/25187.png");
-            guna2cbtnInstagram.Image = Image.FromFile("Logos/free-instagram-icon-2165-thumb.png");
-            guna2cbtnTelegram.Image = Image.FromFile("Logos/telegram-icon-512x512-1s8w0tx0.png");
-            guna2cbtnEmail.Image = Image.FromFile("Logos/email-icon-svg-15.jpg"); 
+            try
+            {
+                guna2cpicbxCreator.Load("Images/IMG_20221102_205710_307.jpg");
+                guna2PicBxBacground.Load("Images/wp1867861.jpg");
+                guna2cbtnWhatsApp.Image = Image.FromFile("Logos/whatsapp.png");
+                guna2cbtnFacebook.Image = Image.FromFile("Logos/25187.png");
+                guna2cbtnInstagram.Image = Image.FromFile("Logos/free-instagram-icon-2165-thumb.png");
+                guna2cbtnTelegram.Image = Image.FromFile("Logos/telegram-icon-512x512-1s8w0tx0.png");
+                guna2cbtnEmail.Image = Image.FromFile("Logos/email-icon-svg-15.jpg");
+            }
+            catch { }
+            
         }
 
         private void guna2cbtnWhatsApp_Click(object sender, EventArgs e)

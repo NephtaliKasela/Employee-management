@@ -22,6 +22,7 @@ namespace MyProject_v002
         private string photo = string.Empty;
         Repository repository = new Repository();
         Employee employee_to_Update = new Employee();
+        Fls fls = new Fls();
         
         public NewEmployee()
         {
@@ -239,7 +240,8 @@ namespace MyProject_v002
 
         public void Get_all_Departments()
         {
-            repository.Read_Department("Employees/Departments.txt");
+            //repository.Read_Department("Employees/Departments.txt");
+            repository.Read_Department(fls.Department());
             repository.Get_Departmnts();
             foreach (var department in repository.Get_Departmnts())
             {
@@ -250,7 +252,8 @@ namespace MyProject_v002
         public void Check_if_Update_and_Print_all_Info()
         {
             // Open the file and get the employee's identity to update
-            repository.Read_Employee_Identity_ToUpdate("Employees/Employee_Identity_ToUpdate.txt");
+            //repository.Read_Employee_Identity_ToUpdate("Employees/Employee_Identity_ToUpdate.txt");
+            repository.Read_Employee_Identity_ToUpdate(fls.Employee_Identity_ToUpdate());
 
             if (repository.Get_Employee_Identity_ToUpdate().Count > 0)
             {
@@ -353,8 +356,10 @@ namespace MyProject_v002
         {
             employee.State = guna2cbxState.Text;
 
-            repository.Read_Employees("Employees/inputEmployees.txt");
-            repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+            //repository.Read_Employees("Employees/inputEmployees.txt");
+            repository.Read_Employees(fls.inputEmployees());
+            //repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+            repository.Read_Salary(fls.inputEmployees(), fls.Salary());
 
             foreach (Employee emp in repository.GetEmployees())
             {
@@ -382,7 +387,8 @@ namespace MyProject_v002
 
                     emp.Date = Date();
 
-                    repository.SaveEmployeesIdentities("Employees/inputEmployees.txt", repository.GetEmployees());
+                    //repository.SaveEmployeesIdentities("Employees/inputEmployees.txt", repository.GetEmployees());
+                    repository.SaveEmployeesIdentities(fls.inputEmployees(), repository.GetEmployees());
                     foreach (Employee salary in repository.Get_Salary())
                     {
                         if (employee_to_update.Name.ToLower() == salary.Name.ToLower() &&
@@ -398,12 +404,14 @@ namespace MyProject_v002
                             salary.Id = emp.Id;
                             salary.Department = emp.Department;
 
-                            repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+                            //repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+                            repository.SaveEmployees_Salary(fls.Salary(), repository.Get_Salary());
                         }
                     }
                     // Keep track
                     repository.Add_EmployeesUpdated_inThe_History(emp);
-                    repository.Track_Employees("Employees/Track_Updated_Employees.txt", "Employees/History.txt", repository.Get_History_of_Updated_Employee(), "update");
+                    //repository.Track_Employees("Employees/Track_Updated_Employees.txt", "Employees/History.txt", repository.Get_History_of_Updated_Employee(), "update");
+                    repository.Track_Employees(fls.Track_Updated_Employees(), fls.History(), repository.Get_History_of_Updated_Employee(), "update");
                 }
             }
             this.Close();

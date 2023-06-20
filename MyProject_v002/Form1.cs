@@ -25,11 +25,10 @@ namespace MyProject_v002
         private EventArgs e;
         private object sender;
         public string userType = string.Empty;
+        Fls fls = new Fls();
 
         public Form1()
         {
-            Fls file = new Fls();
-            file.Departement();
             LogIn lg = new LogIn();
             lg.ShowDialog();
 
@@ -115,7 +114,8 @@ namespace MyProject_v002
         // if simple, hide the history and the salary buttons and the user can not have access to the profile settings
         public void Check_UserType()
         {
-            user_repository.Read_UserTypeConnected("Users/User_Type_Connected.txt");
+            //user_repository.Read_UserTypeConnected("Users/User_Type_Connected.txt");
+            user_repository.Read_UserTypeConnected(fls.User_Type_Connected());
             if(user_repository.Get_UserType_Connected().Length > 0)
             {
                 userType = user_repository.Get_UserType_Connected();
@@ -127,17 +127,20 @@ namespace MyProject_v002
                 Display_theName_of_the_User(userType);
 
                 // Delete the user type that was connected from the file
-                user_repository.Save_UserType_Connected("Users/User_Type_Connected.txt", "");
+                //user_repository.Save_UserType_Connected("Users/User_Type_Connected.txt", "");
+                user_repository.Save_UserType_Connected(fls.User_Type_Connected(), "");
             }
         }
 
         // Display the name of the user who is connected
         public void Display_theName_of_the_User(string userType)
         {
-            user_repository.Read_Password("Users/User_Password_Connected.txt");
+            //user_repository.Read_Password("Users/User_Password_Connected.txt");
+            user_repository.Read_Password(fls.User_Password_Connected());
             if (userType.ToLower() == "admin")
             {
-                user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                //user_repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                user_repository.Read_Users(fls.ADMIN_UserName_and_password());
                 
                 foreach(User user in user_repository.Get_Users())
                 {
@@ -150,7 +153,8 @@ namespace MyProject_v002
             }
             else if(userType.ToLower() == "simple user")
             {
-                user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                //user_repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                user_repository.Read_Users(fls.SIMPLE_USER_UserName_and_password());
 
                 foreach (User user in user_repository.Get_Users())
                 {
@@ -241,7 +245,8 @@ namespace MyProject_v002
 
         private void guna2btnAddNewEmployee_Click(object sender, EventArgs e)
         {
-            repository.Read_Department("Employees/Departments.txt");
+            //repository.Read_Department("Employees/Departments.txt");
+            repository.Read_Department(fls.Department());
             if (repository.Get_Departmnts().Count > 0)
             {
                 NewEmployee newEmployee = new NewEmployee();

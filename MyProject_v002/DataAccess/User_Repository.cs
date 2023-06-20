@@ -118,10 +118,11 @@ namespace MyProject_v002.DataAccess
         // Save the user type of the user that was connected
         public void Save_UserType_Connected(string path, string userType)
         {
-            StreamWriter reader = new StreamWriter(path);
+            File.WriteAllText(path, userType);
+            //StreamWriter reader = new StreamWriter(path);
 
-            reader.Write(userType);
-            reader.Close();
+            //reader.Write(userType);
+            //reader.Close();
         }
 
         // Save the password of the user that was connected

@@ -22,6 +22,7 @@ namespace MyProject_v002.User_Controlers
     {
         public Repository repository = new Repository();
         public Employee employee_To_Delete_or_Update = new Employee();
+        Fls fls = new Fls();
         public UC_Employees()
         {
             InitializeComponent();
@@ -30,11 +31,16 @@ namespace MyProject_v002.User_Controlers
         private void UC_Employees_Load(object sender, EventArgs e)
         {
             // Get all employees, actualize the age and print them
-            repository.Actualize_Age("Employees/inputEmployees.txt");
-            repository.Read_Employees("Employees/inputEmployees.txt");
+            //repository.Actualize_Age("Employees/inputEmployees.txt");
+            //repository.Read_Employees("Employees/inputEmployees.txt");
+
+            repository.Actualize_Age(fls.inputEmployees());
+            repository.Read_Employees(fls.inputEmployees());
             //repository.GetEmployees();
             // Get all department and print print them
-            repository.Read_Department("Employees/Departments.txt");
+            //repository.Read_Department("Employees/Departments.txt");
+
+            repository.Read_Department(fls.Department());
             repository.Get_Departmnts();
             foreach (var department in repository.Get_Departmnts())
             {
@@ -181,10 +187,12 @@ namespace MyProject_v002.User_Controlers
         {
             if (lblName.Text.Length > 0)
             {
-                System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
+                //System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
+                File.WriteAllText(fls.Deleted_Employees(), "");
 
                 repository.Add_Employee_ToDelete(employee_To_Delete_or_Update);
-                repository.Save_Deleted_Employees("Employees/Deleted_Employees.txt", repository.Get_Deleted_Employee());
+                //repository.Save_Deleted_Employees("Employees/Deleted_Employees.txt", repository.Get_Deleted_Employee());
+                repository.Save_Deleted_Employees(fls.Deleted_Employees(), repository.Get_Deleted_Employee());
 
                 Confirmation_Delete_Employee conf = new Confirmation_Delete_Employee();
                 conf.ShowDialog();
@@ -197,7 +205,8 @@ namespace MyProject_v002.User_Controlers
             if (lblName.Text.Length > 0)
             {
                 repository.Add_Employee_Identity_ToUpdate(employee_To_Delete_or_Update);
-                repository.Save_Employee_Identity_ToUpdate("Employees/Employee_Identity_ToUpdate.txt", repository.Get_Employee_Identity_ToUpdate());
+                //repository.Save_Employee_Identity_ToUpdate("Employees/Employee_Identity_ToUpdate.txt", repository.Get_Employee_Identity_ToUpdate());
+                repository.Save_Employee_Identity_ToUpdate(fls.Employee_Identity_ToUpdate(), repository.Get_Employee_Identity_ToUpdate());
 
                 NewEmployee nw = new NewEmployee();
                 nw.ShowDialog();

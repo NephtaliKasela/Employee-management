@@ -20,6 +20,7 @@ namespace MyProject_v002.User_Controlers
         public Repository repository = new Repository();
         public string currency = string.Empty;
         public List<Employee> Salary_ofThe_employee_to_Update = new List<Employee>();
+        Fls fls = new Fls();
         public UC_Salary()
         {
             InitializeComponent();
@@ -27,7 +28,8 @@ namespace MyProject_v002.User_Controlers
 
         private void UC_Salary_Load(object sender, EventArgs e)
         {
-            repository.Read_Department("Employees/Departments.txt");
+            //repository.Read_Department("Employees/Departments.txt");
+            repository.Read_Department(fls.Department());
             repository.Get_Departmnts();
             foreach(var department in repository.Get_Departmnts())
             {
@@ -37,7 +39,8 @@ namespace MyProject_v002.User_Controlers
 
         private void guna2DataGridViewSalary_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+            //repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+            repository.Read_Salary(fls.inputEmployees(), fls.Salary());
 
             if (e.RowIndex >= 0) // Si l'index est superieur a 0.
             {
@@ -159,7 +162,8 @@ namespace MyProject_v002.User_Controlers
         {
             if(Salary_ofThe_employee_to_Update.Count > 0)
             {
-                repository.Save_Salary_of_the_Employee_ToUpdate("Employees/Salary_ofThe_Employee_to_Update.txt", Salary_ofThe_employee_to_Update);
+                //repository.Save_Salary_of_the_Employee_ToUpdate("Employees/Salary_ofThe_Employee_to_Update.txt", Salary_ofThe_employee_to_Update);
+                repository.Save_Salary_of_the_Employee_ToUpdate(fls.Salary_ofThe_Employee_to_Update(), Salary_ofThe_employee_to_Update);
                 Update_Salary up = new Update_Salary();
                 up.ShowDialog();
             }
@@ -180,7 +184,8 @@ namespace MyProject_v002.User_Controlers
             double total = 0;
             double total_Since = 0;
 
-            repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+            //repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+            repository.Read_Salary(fls.inputEmployees(), fls.Salary());
 
             guna2DataGridViewSalary.Rows.Clear();
 
@@ -210,7 +215,9 @@ namespace MyProject_v002.User_Controlers
         {
             if(usualAmount > 0 || bonus > 0)
             {
-                repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+                //repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+                repository.Read_Salary(fls.inputEmployees(), fls.Salary());
+                
                 foreach (Employee salary in repository.Get_Salary())
                 {
                     if (salary.Department == guna2cbxDepartmt.Text)
@@ -261,7 +268,10 @@ namespace MyProject_v002.User_Controlers
                 }
                 usualAmount = 0;
                 bonus = 0;
-                repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+
+                //repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+                repository.SaveEmployees_Salary(fls.Salary(), repository.Get_Salary());
+                
                 MessageBox.Show("Successfull !!!", "Info !");
             }
         }
@@ -271,7 +281,8 @@ namespace MyProject_v002.User_Controlers
         {
             if (usualAmount > 0 || bonus > 0)
             {
-                repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+                //repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+                repository.Read_Salary(fls.inputEmployees(), fls.Salary());
                 foreach (Employee salary in repository.Get_Salary())
                 {
                     if (salary.Department == guna2cbxDepartmt.Text)
@@ -429,18 +440,22 @@ namespace MyProject_v002.User_Controlers
         {
             if (guna2cbxMounth.Text.ToLower() == "january")
             {
-                salary.All_Usual_Amount_In_a_Year[0] = salary.UsualAmount;
-                salary.All_Usual_Amount_In_a_Year[1] = 0;
-                salary.All_Usual_Amount_In_a_Year[2] = 0;
-                salary.All_Usual_Amount_In_a_Year[3] = 0;
-                salary.All_Usual_Amount_In_a_Year[4] = 0;
-                salary.All_Usual_Amount_In_a_Year[5] = 0;
-                salary.All_Usual_Amount_In_a_Year[6] = 0;
-                salary.All_Usual_Amount_In_a_Year[7] = 0;
-                salary.All_Usual_Amount_In_a_Year[8] = 0;
-                salary.All_Usual_Amount_In_a_Year[9] = 0;
-                salary.All_Usual_Amount_In_a_Year[10] = 0;
-                salary.All_Usual_Amount_In_a_Year[11] = 0;
+                //salary.All_Usual_Amount_In_a_Year[0] = salary.UsualAmount;
+                //salary.All_Usual_Amount_In_a_Year[1] = 0;
+                //salary.All_Usual_Amount_In_a_Year[2] = 0;
+                //salary.All_Usual_Amount_In_a_Year[3] = 0;
+                //salary.All_Usual_Amount_In_a_Year[4] = 0;
+                //salary.All_Usual_Amount_In_a_Year[5] = 0;
+                //salary.All_Usual_Amount_In_a_Year[6] = 0;
+                //salary.All_Usual_Amount_In_a_Year[7] = 0;
+                //salary.All_Usual_Amount_In_a_Year[8] = 0;
+                //salary.All_Usual_Amount_In_a_Year[9] = 0;
+                //salary.All_Usual_Amount_In_a_Year[10] = 0;
+                //salary.All_Usual_Amount_In_a_Year[11] = 0;
+                for(int i = 1; i < 12; i++)
+                {
+                    salary.All_Usual_Amount_In_a_Year[i] = 0;
+                }
             }
             if (guna2cbxMounth.Text.ToLower() == "february") salary.All_Usual_Amount_In_a_Year[1] = salary.UsualAmount;
             if (guna2cbxMounth.Text.ToLower() == "march") salary.All_Usual_Amount_In_a_Year[2] = salary.UsualAmount;
@@ -462,7 +477,9 @@ namespace MyProject_v002.User_Controlers
                     emp.BirthDay.ToLower() == salary.BirthDay.ToLower())
                 {
                     emp.All_Usual_Amount_In_a_Year = salary.All_Usual_Amount_In_a_Year;
-                    repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+
+                    //repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+                    repository.SaveEmployees_Salary(fls.Salary(), repository.Get_Salary());
                     return;
                 }
             }
@@ -508,13 +525,14 @@ namespace MyProject_v002.User_Controlers
                     emp.BirthDay.ToLower() == salary.BirthDay.ToLower())
                 {
                     emp.All_Usual_Amount_In_a_Year = salary.All_Usual_Amount_In_a_Year;
-                    repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+
+                    //repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+                    repository.SaveEmployees_Salary(fls.Salary(), repository.Get_Salary());
                     return;
                 }
             }
 
         }
-
 
         // End of personalized methodes
     }

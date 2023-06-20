@@ -18,12 +18,14 @@ namespace MyProject_v002
     {
         Repository repository = new Repository();
         Employee employee_to_Update = new Employee();
+        Fls fls = new Fls();
         public Update_Salary()
         {
             InitializeComponent();
 
             // fill all info about the employee
-            repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary_ofThe_Employee_to_Update.txt");
+            //repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary_ofThe_Employee_to_Update.txt");
+            repository.Read_Salary(fls.inputEmployees(), fls.Salary_ofThe_Employee_to_Update());
             if(repository.Get_Salary().Count > 0)
             {
                 lblEmployeeName.Text = (repository.Get_Salary()[0].Name + " " + repository.Get_Salary()[0].PostName + " " + repository.Get_Salary()[0].GivenName).ToUpper();

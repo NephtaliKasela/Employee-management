@@ -16,6 +16,7 @@ namespace MyProject_v002
     public partial class Confirmation_Delete_Employee : Form
     {
         public Repository repository = new Repository();
+        Fls fls = new Fls();
         public Confirmation_Delete_Employee()
         {
             InitializeComponent();
@@ -23,8 +24,11 @@ namespace MyProject_v002
 
         private void guna2btnDelete_Click(object sender, EventArgs e)
         {
-            repository.Read_Employees("Employees/inputEmployees.txt");
-            repository.Read_Deleted_Employees("Employees/Deleted_Employees.txt");
+            //repository.Read_Employees("Employees/inputEmployees.txt");
+            //repository.Read_Deleted_Employees("Employees/Deleted_Employees.txt");
+
+            repository.Read_Employees(fls.inputEmployees());
+            repository.Read_Deleted_Employees(fls.Deleted_Employees());
 
             foreach (Employee employee in repository.GetEmployees())
             {
@@ -38,13 +42,18 @@ namespace MyProject_v002
                         DateTime today = DateTime.Now;
                         employee.Date = today.ToString();
 
-                        repository.Delete_Employee_Identity(employee, "Employees/inputEmployees.txt");
+                        //repository.Delete_Employee_Identity(employee, "Employees/inputEmployees.txt");
+                        repository.Delete_Employee_Identity(employee, fls.inputEmployees());
                         repository.Add_EmployeesDeleted_inThe_History(employee);
 
-                        repository.SaveEmployeesIdentities("Employees/inputEmployees.txt", repository.GetEmployees());
-                        repository.Track_Employees("Employees/Track_Deleted_Employees.txt", "Employees/History.txt", repository.Get_History_of_Deleted_Employee(), "delete");
+                        //repository.SaveEmployeesIdentities("Employees/inputEmployees.txt", repository.GetEmployees());
+                        //repository.Track_Employees("Employees/Track_Deleted_Employees.txt", "Employees/History.txt", repository.Get_History_of_Deleted_Employee(), "delete");
 
-                        System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
+                        repository.SaveEmployeesIdentities(fls.inputEmployees(), repository.GetEmployees());
+                        repository.Track_Employees(fls.Track_Deleted_Employees(), fls.History(), repository.Get_History_of_Deleted_Employee(), "delete");
+
+                        //File.WriteAllText("Employees/Deleted_Employees.txt", "");
+                        File.WriteAllText(fls.Deleted_Employees(), "");
                         this.Close();
                         MessageBox.Show("Successful !!!");
                         return;
@@ -55,7 +64,8 @@ namespace MyProject_v002
 
         private void guna2btnNotDelete_Click(object sender, EventArgs e)
         {
-            System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
+            //System.IO.File.WriteAllText("Employees/Deleted_Employees.txt", "");
+            File.WriteAllText(fls.Deleted_Employees(), "");
             this.Close();
         }
     }

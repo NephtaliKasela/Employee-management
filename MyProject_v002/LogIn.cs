@@ -67,6 +67,7 @@ namespace MyProject_v002
         // Begining of personalized methodes
         public bool Check_Password()
         {
+            Fls fls = new Fls();    
             // Check if the text box of the password is not empty
             if (guna2txtUserPassword.Text.Length > 0)
             {
@@ -75,7 +76,8 @@ namespace MyProject_v002
                 if (guna2cbxUserType.Text.ToLower() == "admin")
                 {
                     user_Repository = new User_Repository();
-                    user_Repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                    //user_Repository.Read_Users("Users/ADMIN_UserName_and_password.txt");
+                    user_Repository.Read_Users(fls.ADMIN_UserName_and_password());
 
                     if (user_Repository.Get_Users().Count > 0)
                     {
@@ -95,7 +97,8 @@ namespace MyProject_v002
                 else if (guna2cbxUserType.Text.ToLower() == "simple user")
                 {
                     user_Repository = new User_Repository();
-                    user_Repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                    //user_Repository.Read_Users("Users/SIMPLE_USER_UserName_and_password.txt");
+                    user_Repository.Read_Users(fls.SIMPLE_USER_UserName_and_password());
 
                     if (user_Repository.Get_Users().Count > 0)
                     {
@@ -124,8 +127,11 @@ namespace MyProject_v002
 
         public void Save_UserType(string userType)
         {
-            user_Repository.Save_UserType_Connected("Users/User_Type_Connected.txt", userType);
-            user_Repository.Save_Password("Users/User_Password_Connected.txt", guna2txtUserPassword.Text);
+            Fls fls = new Fls();
+            //user_Repository.Save_UserType_Connected("Users/User_Type_Connected.txt", userType);
+            user_Repository.Save_UserType_Connected(fls.User_Type_Connected(), userType);
+            //user_Repository.Save_Password("Users/User_Password_Connected.txt", guna2txtUserPassword.Text);
+            user_Repository.Save_Password(fls.User_Password_Connected(), guna2txtUserPassword.Text);
         }
 
         public void Hide_The_Login_Interface()

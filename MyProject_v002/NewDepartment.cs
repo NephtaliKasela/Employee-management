@@ -14,6 +14,7 @@ namespace MyProject_v002
     public partial class NewDepartment : Form
     {
         public Repository repository = new Repository();
+        Fls fls = new Fls();    
         public NewDepartment()
         {
             InitializeComponent();
@@ -35,7 +36,8 @@ namespace MyProject_v002
             if (guna2TxtDepartmt.Text != string.Empty)
             {
                 repository.Add_Department(guna2TxtDepartmt.Text);
-                repository.Save_Departments(repository.Get_Departmnts(), "Employees/Departments.txt");
+                //repository.Save_Departments(repository.Get_Departmnts(), "Employees/Departments.txt");
+                repository.Save_Departments(repository.Get_Departmnts(), fls.Department());
                 listBox.Items.Add(guna2TxtDepartmt.Text);
                 lblWarning.Text = "Department was added successfully !";
                 lblWarning.ForeColor = Color.Lime;
@@ -54,7 +56,8 @@ namespace MyProject_v002
             if (listBox.SelectedItem != null)
             {
                 repository.Delete_Department(listBox.SelectedItem.ToString());
-                repository.Save_Departments(repository.Get_Departmnts(), "Employees/Departments.txt");
+                //repository.Save_Departments(repository.Get_Departmnts(), "Employees/Departments.txt");
+                repository.Save_Departments(repository.Get_Departmnts(), fls.Department());
                 listBox.Items.Remove(listBox.SelectedItem.ToString());
 
                 lblWarning.Text = "Department was deleted successfully !";

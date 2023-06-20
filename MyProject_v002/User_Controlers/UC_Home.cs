@@ -21,8 +21,13 @@ namespace MyProject_v002.User_Controlers
         {
             Random rand = new Random();
             int image = rand.Next(0, 2);
-            if (image == 0) guna2PictureBox.Load("Images/woman-g71eeba979_1920.jpg");
-            else guna2PictureBox.Load("Images/networks-g94003ad24_1920.jpg");
+
+            try
+            {
+                if (image == 0) guna2PictureBox.Load("Images/woman-g71eeba979_1920.jpg");
+                else guna2PictureBox.Load("Images/networks-g94003ad24_1920.jpg");
+            }
+            catch { }
         }
     }
 }

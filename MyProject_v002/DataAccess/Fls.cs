@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace MyProject_v002.DataAccess
 {
@@ -77,7 +78,7 @@ namespace MyProject_v002.DataAccess
             return CheckPath(EmployeeFiles.Track_Updated_Employees.ToString());
         }
 
-        public string Departement()
+        public string Department()
         {
             return CheckPath(EmployeeFiles.Departments.ToString());
         }
@@ -108,7 +109,7 @@ namespace MyProject_v002.DataAccess
         {
             string path = Path.GetTempPath();
             path = path.Replace("\\", "/");
-            path = path + name;
+            path = path + name + ".txt";
 
             if (!File.Exists(path))
             {

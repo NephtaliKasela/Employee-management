@@ -410,7 +410,7 @@ namespace MyProject_v002.DataAccess
 
         public void Clean_the_file(string path)
         {
-            File.WriteAllText(path, "");
+            File.   WriteAllText(path, "");
         }
 
         public void Delete_Department(string department)
