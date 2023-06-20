@@ -20,7 +20,8 @@ namespace MyProject_v002
             InitializeComponent();
 
             // Open the department file and get all department names and add them to the list
-            repository.Read_Department("Employees/Departments.txt");
+            //repository.Read_Department("Employees/Departments.txt");
+            repository.Read_Department(fls.Department());
             if(repository.Get_Departmnts().Count > 0)
             {
                 foreach (string s in repository.Get_Departmnts())

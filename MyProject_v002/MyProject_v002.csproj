@@ -28,7 +28,7 @@
     <UpdateUrl>http://localhost/MyProject_v002/</UpdateUrl>
     <ProductName>STEFF Control</ProductName>
     <PublisherName>Nephtali</PublisherName>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>10</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>

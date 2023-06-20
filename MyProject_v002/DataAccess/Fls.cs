@@ -107,14 +107,17 @@ namespace MyProject_v002.DataAccess
         // Personalized methods
         public string CheckPath(string name)
         {
-            string path = Path.GetTempPath();
+            string path = Directory.GetCurrentDirectory();
             path = path.Replace("\\", "/");
-            path = path + name + ".txt";
+            path = path.Replace(@"\", "/");
+            path = path + "/" + name + ".txt";
 
             if (!File.Exists(path))
             {
                 File.Create(path).Close();
-            } 
+            }
+            //string p = Directory.GetCurrentDirectory();
+            //MessageBox.Show(path);
             return path;
         }
     }

@@ -150,11 +150,13 @@ namespace MyProject_v002
                 // if registration, add the new employee in the data base of employees and salary
                 // if update, search that employee in the data base of employee and salary and update
 
-                if (lblTitle.Text.ToLower() == "registration")
+                //if (lblTitle.Text.ToLower() == "registration")
+                if (this.Text.ToLower() == "registration")
                 {
                     Register_Employee(Save_Info());
                 }
-                else if (lblTitle.Text.ToLower() == "update")
+                //else if (lblTitle.Text.ToLower() == "update")
+                else if (this.Text.ToLower() == "update")
                 {
                     Update_Employee(employee_to_Update, Save_Info());
                 }
@@ -289,15 +291,18 @@ namespace MyProject_v002
                 }
                 employee_to_Update = emp;
                 lblTitle.Text = "Update";
+                this.Text = "Update";
             }
             else
             {
                 lblTitle.Text = "Registration";
+                this.Text = "Registration";
                 lblState.Visible = false;
                 guna2cbxState.Visible = false;
             }
             // Clean the file
-            repository.Clean_the_file("Employees/Employee_Identity_ToUpdate.txt");
+            //repository.Clean_the_file("Employees/Employee_Identity_ToUpdate.txt");
+            repository.Clean_the_file(fls.Employee_Identity_ToUpdate());
         }
 
         public Employee Save_Info()
@@ -338,16 +343,23 @@ namespace MyProject_v002
         {
             employee.State = "Active";
 
-            repository.Read_Employees("Employees/inputEmployees.txt");
-            repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+            //repository.Read_Employees("Employees/inputEmployees.txt");
+            //repository.Read_Salary("Employees/inputEmployees.txt", "Employees/Salary.txt");
+
+            repository.Read_Employees(fls.inputEmployees());
+            repository.Read_Salary(fls.inputEmployees(), fls.Salary());
 
             repository.Add_Employees(employee);
             repository.Add_Salary(employee);
             repository.Add_EmployeeAdded_inThe_History(employee);
 
-            repository.SaveEmployeesIdentities("Employees/inputEmployees.txt", repository.GetEmployees());
-            repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
-            repository.Track_Employees("Employees/Track_Added_Employees.txt", "Employees/History.txt", repository.Get_History_of_Added_Employee(), "add");
+            //repository.SaveEmployeesIdentities("Employees/inputEmployees.txt", repository.GetEmployees());
+            //repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+            //repository.Track_Employees("Employees/Track_Added_Employees.txt", "Employees/History.txt", repository.Get_History_of_Added_Employee(), "add");
+
+            repository.SaveEmployeesIdentities(fls.inputEmployees(), repository.GetEmployees());
+            repository.SaveEmployees_Salary(fls.Salary(), repository.Get_Salary());
+            repository.Track_Employees(fls.Track_Added_Employees(), fls.History(), repository.Get_History_of_Added_Employee(), "add");
 
             this.Close();
         }

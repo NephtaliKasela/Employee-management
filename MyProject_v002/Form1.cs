@@ -29,10 +29,9 @@ namespace MyProject_v002
 
         public Form1()
         {
+            InitializeComponent();
             LogIn lg = new LogIn();
             lg.ShowDialog();
-
-            InitializeComponent();
 
             Check_UserType();
             Initialization();
@@ -173,15 +172,20 @@ namespace MyProject_v002
             guna2btnFavorites.Visible = false;
             guna2btnCorbeille.Visible = false;
 
-            guna2cbtnUserProfile.Image = Image.FromFile("Logos/icon-gb75904f00_1280.png");
-            guna2btnHome.Image = Image.FromFile("Logos/house-g3fd0ea44a_1280.png");
-            //guna2btnFavorites.Image = Image.FromFile("Logos/494934.png");
-            guna2btnEmployees.Image = Image.FromFile("Logos/Healthcare-Groups-icon.png");
-            guna2btnSalary.Image = Image.FromFile("Logos/my-salary.png");
-            guna2btnHistory.Image = Image.FromFile("Logos/flat-g4e81f12c8_1280.png");
-            guna2btnInfo.Image = Image.FromFile("Logos/info-89.png");
-            guna2btnNewDepartment.Image = Image.FromFile("Logos/Plus-Symbol-PNG-Image-File.png");
-            guna2btnAddNewEmployee.Image = Image.FromFile("Logos/Plus-Symbol-PNG-Image-File.png");
+            try
+            {
+                guna2cbtnUserProfile.Image = Image.FromFile("Logos/icon-gb75904f00_1280.png");
+                guna2btnHome.Image = Image.FromFile("Logos/house-g3fd0ea44a_1280.png");
+                //guna2btnFavorites.Image = Image.FromFile("Logos/494934.png");
+                guna2btnEmployees.Image = Image.FromFile("Logos/Healthcare-Groups-icon.png");
+                guna2btnSalary.Image = Image.FromFile("Logos/my-salary.png");
+                guna2btnHistory.Image = Image.FromFile("Logos/flat-g4e81f12c8_1280.png");
+                guna2btnInfo.Image = Image.FromFile("Logos/info-89.png");
+                guna2btnNewDepartment.Image = Image.FromFile("Logos/Plus-Symbol-PNG-Image-File.png");
+                guna2btnAddNewEmployee.Image = Image.FromFile("Logos/Plus-Symbol-PNG-Image-File.png");
+            }
+            catch { }
+            
         }
 
         // End of personalized methodes

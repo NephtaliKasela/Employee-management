@@ -73,7 +73,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(33, 99);
+            this.label1.Location = new System.Drawing.Point(33, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(130, 30);
             this.label1.TabIndex = 0;
@@ -94,7 +94,7 @@
             this.guna2TxtName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtName.ForeColor = System.Drawing.Color.White;
             this.guna2TxtName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtName.Location = new System.Drawing.Point(169, 99);
+            this.guna2TxtName.Location = new System.Drawing.Point(169, 38);
             this.guna2TxtName.Name = "guna2TxtName";
             this.guna2TxtName.PasswordChar = '\0';
             this.guna2TxtName.PlaceholderText = "";
@@ -117,7 +117,7 @@
             this.guna2TxtPostName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtPostName.ForeColor = System.Drawing.Color.White;
             this.guna2TxtPostName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtPostName.Location = new System.Drawing.Point(169, 135);
+            this.guna2TxtPostName.Location = new System.Drawing.Point(169, 74);
             this.guna2TxtPostName.Name = "guna2TxtPostName";
             this.guna2TxtPostName.PasswordChar = '\0';
             this.guna2TxtPostName.PlaceholderText = "";
@@ -129,7 +129,7 @@
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(33, 135);
+            this.label2.Location = new System.Drawing.Point(33, 74);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(130, 30);
             this.label2.TabIndex = 2;
@@ -150,7 +150,7 @@
             this.guna2TxtGivenName.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtGivenName.ForeColor = System.Drawing.Color.White;
             this.guna2TxtGivenName.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtGivenName.Location = new System.Drawing.Point(169, 171);
+            this.guna2TxtGivenName.Location = new System.Drawing.Point(169, 110);
             this.guna2TxtGivenName.Name = "guna2TxtGivenName";
             this.guna2TxtGivenName.PasswordChar = '\0';
             this.guna2TxtGivenName.PlaceholderText = "";
@@ -162,7 +162,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(33, 171);
+            this.label3.Location = new System.Drawing.Point(33, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(130, 30);
             this.label3.TabIndex = 4;
@@ -172,7 +172,7 @@
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(33, 207);
+            this.label4.Location = new System.Drawing.Point(33, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(130, 30);
             this.label4.TabIndex = 6;
@@ -193,7 +193,7 @@
             this.guna2TxtBirthDay.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtBirthDay.ForeColor = System.Drawing.Color.White;
             this.guna2TxtBirthDay.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtBirthDay.Location = new System.Drawing.Point(169, 243);
+            this.guna2TxtBirthDay.Location = new System.Drawing.Point(169, 182);
             this.guna2TxtBirthDay.Name = "guna2TxtBirthDay";
             this.guna2TxtBirthDay.PasswordChar = '\0';
             this.guna2TxtBirthDay.PlaceholderText = "";
@@ -205,7 +205,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(33, 243);
+            this.label5.Location = new System.Drawing.Point(33, 182);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(130, 30);
             this.label5.TabIndex = 8;
@@ -215,7 +215,7 @@
             // label6
             // 
             this.label6.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(33, 443);
+            this.label6.Location = new System.Drawing.Point(33, 382);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(130, 30);
             this.label6.TabIndex = 18;
@@ -236,7 +236,7 @@
             this.guna2TxtID.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtID.ForeColor = System.Drawing.Color.White;
             this.guna2TxtID.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtID.Location = new System.Drawing.Point(169, 402);
+            this.guna2TxtID.Location = new System.Drawing.Point(169, 341);
             this.guna2TxtID.Name = "guna2TxtID";
             this.guna2TxtID.PasswordChar = '\0';
             this.guna2TxtID.PlaceholderText = "";
@@ -248,7 +248,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(33, 402);
+            this.label7.Location = new System.Drawing.Point(33, 341);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(130, 30);
             this.label7.TabIndex = 16;
@@ -269,7 +269,7 @@
             this.guna2TxtPost.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtPost.ForeColor = System.Drawing.Color.White;
             this.guna2TxtPost.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtPost.Location = new System.Drawing.Point(169, 366);
+            this.guna2TxtPost.Location = new System.Drawing.Point(169, 305);
             this.guna2TxtPost.Name = "guna2TxtPost";
             this.guna2TxtPost.PasswordChar = '\0';
             this.guna2TxtPost.PlaceholderText = "";
@@ -281,7 +281,7 @@
             // label8
             // 
             this.label8.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(33, 366);
+            this.label8.Location = new System.Drawing.Point(33, 305);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(130, 30);
             this.label8.TabIndex = 14;
@@ -302,7 +302,7 @@
             this.guna2TxtCountry.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtCountry.ForeColor = System.Drawing.Color.White;
             this.guna2TxtCountry.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtCountry.Location = new System.Drawing.Point(169, 330);
+            this.guna2TxtCountry.Location = new System.Drawing.Point(169, 269);
             this.guna2TxtCountry.Name = "guna2TxtCountry";
             this.guna2TxtCountry.PasswordChar = '\0';
             this.guna2TxtCountry.PlaceholderText = "";
@@ -314,7 +314,7 @@
             // label9
             // 
             this.label9.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(33, 330);
+            this.label9.Location = new System.Drawing.Point(33, 269);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(130, 30);
             this.label9.TabIndex = 12;
@@ -324,7 +324,7 @@
             // label10
             // 
             this.label10.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(33, 281);
+            this.label10.Location = new System.Drawing.Point(33, 220);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(130, 30);
             this.label10.TabIndex = 10;
@@ -334,7 +334,7 @@
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(33, 491);
+            this.label11.Location = new System.Drawing.Point(33, 430);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(130, 30);
             this.label11.TabIndex = 20;
@@ -355,7 +355,7 @@
             this.guna2TxtEndJob.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtEndJob.ForeColor = System.Drawing.Color.White;
             this.guna2TxtEndJob.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtEndJob.Location = new System.Drawing.Point(169, 631);
+            this.guna2TxtEndJob.Location = new System.Drawing.Point(169, 570);
             this.guna2TxtEndJob.Name = "guna2TxtEndJob";
             this.guna2TxtEndJob.PasswordChar = '\0';
             this.guna2TxtEndJob.PlaceholderText = "";
@@ -367,7 +367,7 @@
             // label12
             // 
             this.label12.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(33, 631);
+            this.label12.Location = new System.Drawing.Point(33, 570);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(130, 30);
             this.label12.TabIndex = 26;
@@ -388,7 +388,7 @@
             this.guna2TxtStartJob.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2TxtStartJob.ForeColor = System.Drawing.Color.White;
             this.guna2TxtStartJob.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TxtStartJob.Location = new System.Drawing.Point(169, 595);
+            this.guna2TxtStartJob.Location = new System.Drawing.Point(169, 534);
             this.guna2TxtStartJob.Name = "guna2TxtStartJob";
             this.guna2TxtStartJob.PasswordChar = '\0';
             this.guna2TxtStartJob.PlaceholderText = "";
@@ -400,7 +400,7 @@
             // label13
             // 
             this.label13.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(33, 595);
+            this.label13.Location = new System.Drawing.Point(33, 534);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(130, 30);
             this.label13.TabIndex = 24;
@@ -410,7 +410,7 @@
             // label14
             // 
             this.label14.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(33, 549);
+            this.label14.Location = new System.Drawing.Point(33, 488);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(130, 30);
             this.label14.TabIndex = 22;
@@ -433,7 +433,7 @@
             "Single",
             "Married",
             "Divorced"});
-            this.guna2cbxSocialStatus.Location = new System.Drawing.Point(169, 543);
+            this.guna2cbxSocialStatus.Location = new System.Drawing.Point(169, 482);
             this.guna2cbxSocialStatus.Name = "guna2cbxSocialStatus";
             this.guna2cbxSocialStatus.Size = new System.Drawing.Size(207, 36);
             this.guna2cbxSocialStatus.TabIndex = 28;
@@ -443,7 +443,7 @@
             // 
             this.guna2cpPicture.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2cpPicture.ImageRotate = 0F;
-            this.guna2cpPicture.Location = new System.Drawing.Point(428, 117);
+            this.guna2cpPicture.Location = new System.Drawing.Point(428, 56);
             this.guna2cpPicture.Name = "guna2cpPicture";
             this.guna2cpPicture.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2cpPicture.Size = new System.Drawing.Size(253, 291);
@@ -464,7 +464,7 @@
             this.guna2btnPicture.FillColor = System.Drawing.Color.Gray;
             this.guna2btnPicture.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold);
             this.guna2btnPicture.ForeColor = System.Drawing.Color.White;
-            this.guna2btnPicture.Location = new System.Drawing.Point(512, 423);
+            this.guna2btnPicture.Location = new System.Drawing.Point(512, 362);
             this.guna2btnPicture.Name = "guna2btnPicture";
             this.guna2btnPicture.Size = new System.Drawing.Size(85, 44);
             this.guna2btnPicture.TabIndex = 30;
@@ -479,7 +479,7 @@
             this.guna2NupDwAge.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.guna2NupDwAge.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2NupDwAge.ForeColor = System.Drawing.Color.White;
-            this.guna2NupDwAge.Location = new System.Drawing.Point(169, 207);
+            this.guna2NupDwAge.Location = new System.Drawing.Point(169, 146);
             this.guna2NupDwAge.Name = "guna2NupDwAge";
             this.guna2NupDwAge.Size = new System.Drawing.Size(207, 30);
             this.guna2NupDwAge.TabIndex = 32;
@@ -501,7 +501,7 @@
             this.guna2cbxGender.Items.AddRange(new object[] {
             "Male",
             "Female"});
-            this.guna2cbxGender.Location = new System.Drawing.Point(169, 281);
+            this.guna2cbxGender.Location = new System.Drawing.Point(169, 220);
             this.guna2cbxGender.Name = "guna2cbxGender";
             this.guna2cbxGender.Size = new System.Drawing.Size(207, 36);
             this.guna2cbxGender.TabIndex = 33;
@@ -524,7 +524,7 @@
             this.guna2btnSubmit.FillColor = System.Drawing.Color.Teal;
             this.guna2btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.guna2btnSubmit.Location = new System.Drawing.Point(270, 737);
+            this.guna2btnSubmit.Location = new System.Drawing.Point(463, 593);
             this.guna2btnSubmit.Name = "guna2btnSubmit";
             this.guna2btnSubmit.Size = new System.Drawing.Size(180, 55);
             this.guna2btnSubmit.TabIndex = 34;
@@ -533,7 +533,7 @@
             // 
             // lblWarning
             // 
-            this.lblWarning.Location = new System.Drawing.Point(223, 811);
+            this.lblWarning.Location = new System.Drawing.Point(415, 662);
             this.lblWarning.Name = "lblWarning";
             this.lblWarning.Size = new System.Drawing.Size(275, 23);
             this.lblWarning.TabIndex = 35;
@@ -554,7 +554,7 @@
             this.guna2cbxContractType.Items.AddRange(new object[] {
             "Definite",
             "Indefinite"});
-            this.guna2cbxContractType.Location = new System.Drawing.Point(169, 493);
+            this.guna2cbxContractType.Location = new System.Drawing.Point(169, 432);
             this.guna2cbxContractType.Name = "guna2cbxContractType";
             this.guna2cbxContractType.Size = new System.Drawing.Size(207, 36);
             this.guna2cbxContractType.TabIndex = 36;
@@ -563,7 +563,7 @@
             // label15
             // 
             this.label15.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(502, 481);
+            this.label15.Location = new System.Drawing.Point(502, 420);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(103, 23);
             this.label15.TabIndex = 37;
@@ -572,10 +572,11 @@
             // 
             // lblTitle
             // 
-            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.Location = new System.Drawing.Point(4, 3);
+            this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.LightSlateGray;
+            this.lblTitle.Location = new System.Drawing.Point(614, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(218, 54);
+            this.lblTitle.Size = new System.Drawing.Size(107, 40);
             this.lblTitle.TabIndex = 38;
             this.lblTitle.Text = "Registration";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -592,7 +593,7 @@
             this.guna2cbxDepartment.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2cbxDepartment.ForeColor = System.Drawing.Color.White;
             this.guna2cbxDepartment.ItemHeight = 30;
-            this.guna2cbxDepartment.Location = new System.Drawing.Point(169, 443);
+            this.guna2cbxDepartment.Location = new System.Drawing.Point(169, 382);
             this.guna2cbxDepartment.Name = "guna2cbxDepartment";
             this.guna2cbxDepartment.Size = new System.Drawing.Size(207, 36);
             this.guna2cbxDepartment.TabIndex = 39;
@@ -614,7 +615,7 @@
             "Active",
             "Non active",
             "Holiday"});
-            this.guna2cbxState.Location = new System.Drawing.Point(169, 673);
+            this.guna2cbxState.Location = new System.Drawing.Point(169, 612);
             this.guna2cbxState.Name = "guna2cbxState";
             this.guna2cbxState.Size = new System.Drawing.Size(207, 36);
             this.guna2cbxState.TabIndex = 41;
@@ -622,7 +623,7 @@
             // lblState
             // 
             this.lblState.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblState.Location = new System.Drawing.Point(33, 679);
+            this.lblState.Location = new System.Drawing.Point(33, 618);
             this.lblState.Name = "lblState";
             this.lblState.Size = new System.Drawing.Size(130, 30);
             this.lblState.TabIndex = 40;
@@ -634,7 +635,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(721, 849);
+            this.ClientSize = new System.Drawing.Size(721, 706);
             this.Controls.Add(this.guna2cbxState);
             this.Controls.Add(this.lblState);
             this.Controls.Add(this.guna2cbxDepartment);
