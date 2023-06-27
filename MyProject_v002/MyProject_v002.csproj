@@ -28,7 +28,7 @@
     <UpdateUrl>http://localhost/MyProject_v002/</UpdateUrl>
     <ProductName>STEFF Control</ProductName>
     <PublisherName>Nephtali</PublisherName>
-    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationRevision>16</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -353,6 +353,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Update_Salary.resx">
       <DependentUpon>Update_Salary.cs</DependentUpon>
@@ -405,6 +406,51 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\icon-gb75904f00_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\house-g3fd0ea44a_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\Healthcare-Groups-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\my-salary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\flat-g4e81f12c8_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\info-89.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\Plus-Symbol-PNG-Image-File.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMG_20221006_174919_076[1].jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\whatsapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\25187.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\free-instagram-icon-2165-thumb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\telegram-icon-512x512-1s8w0tx0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Logos\email-icon-svg-15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\wp1867861.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Images\matrix-g9ec227521_1920.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -59,13 +59,13 @@
             this.guna2cbxUserNameToUpdate = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2txtOldPasswordToUpdate = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.guna2picbxBackground = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblUserNameConnected = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2btnResetTheApp = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2picbxBackground = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
@@ -73,9 +73,9 @@
             this.guna2GroupBox3.SuspendLayout();
             this.guna2GroupBox4.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2picbxBackground)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2picbxBackground)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -526,18 +526,6 @@
             this.panel4.Size = new System.Drawing.Size(20, 878);
             this.panel4.TabIndex = 12;
             // 
-            // guna2picbxBackground
-            // 
-            this.guna2picbxBackground.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2picbxBackground.FillColor = System.Drawing.Color.Navy;
-            this.guna2picbxBackground.ImageRotate = 0F;
-            this.guna2picbxBackground.Location = new System.Drawing.Point(0, 0);
-            this.guna2picbxBackground.Name = "guna2picbxBackground";
-            this.guna2picbxBackground.Size = new System.Drawing.Size(20, 878);
-            this.guna2picbxBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2picbxBackground.TabIndex = 0;
-            this.guna2picbxBackground.TabStop = false;
-            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.lblUserNameConnected);
@@ -613,6 +601,19 @@
             this.guna2btnResetTheApp.Text = "Reset";
             this.guna2btnResetTheApp.Click += new System.EventHandler(this.guna2btnResetTheApp_Click);
             // 
+            // guna2picbxBackground
+            // 
+            this.guna2picbxBackground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2picbxBackground.FillColor = System.Drawing.Color.Navy;
+            this.guna2picbxBackground.Image = global::MyProject_v002.Properties.Resources.matrix_g9ec227521_1920;
+            this.guna2picbxBackground.ImageRotate = 0F;
+            this.guna2picbxBackground.Location = new System.Drawing.Point(0, 0);
+            this.guna2picbxBackground.Name = "guna2picbxBackground";
+            this.guna2picbxBackground.Size = new System.Drawing.Size(20, 878);
+            this.guna2picbxBackground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2picbxBackground.TabIndex = 0;
+            this.guna2picbxBackground.TabStop = false;
+            // 
             // UC_User
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -629,9 +630,9 @@
             this.guna2GroupBox3.ResumeLayout(false);
             this.guna2GroupBox4.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2picbxBackground)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2picbxBackground)).EndInit();
             this.ResumeLayout(false);
 
         }

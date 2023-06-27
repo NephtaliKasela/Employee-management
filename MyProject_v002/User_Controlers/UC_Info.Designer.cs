@@ -31,23 +31,23 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.guna2txtContact = new Guna.UI2.WinForms.Guna2TextBox();
+            this.lblCreatorInfo = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.guna2PicBxBacground = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.guna2cpicbxCreator = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2cbtnEmail = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2cbtnTelegram = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2cbtnInstagram = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2cbtnFacebook = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2cbtnWhatsApp = new Guna.UI2.WinForms.Guna2CircleButton();
-            this.lblCreatorInfo = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.guna2cpicbxCreator = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2PicBxBacground = new Guna.UI2.WinForms.Guna2PictureBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2cpicbxCreator)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PicBxBacground)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2cpicbxCreator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -104,6 +104,64 @@
             this.guna2txtContact.TabIndex = 12;
             this.guna2txtContact.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // lblCreatorInfo
+            // 
+            this.lblCreatorInfo.BackColor = System.Drawing.Color.LightSlateGray;
+            this.lblCreatorInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCreatorInfo.ForeColor = System.Drawing.Color.DimGray;
+            this.lblCreatorInfo.Location = new System.Drawing.Point(8, 87);
+            this.lblCreatorInfo.Name = "lblCreatorInfo";
+            this.lblCreatorInfo.Size = new System.Drawing.Size(591, 117);
+            this.lblCreatorInfo.TabIndex = 3;
+            this.lblCreatorInfo.Text = "label2";
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.LightSlateGray;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.label1.Location = new System.Drawing.Point(5, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(594, 52);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "About the creator";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.White;
+            this.panel2.Controls.Add(this.guna2PicBxBacground);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(474, 802);
+            this.panel2.TabIndex = 1;
+            // 
+            // guna2PicBxBacground
+            // 
+            this.guna2PicBxBacground.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2PicBxBacground.FillColor = System.Drawing.Color.Gray;
+            this.guna2PicBxBacground.Image = global::MyProject_v002.Properties.Resources.wp1867861;
+            this.guna2PicBxBacground.ImageRotate = 0F;
+            this.guna2PicBxBacground.Location = new System.Drawing.Point(0, 0);
+            this.guna2PicBxBacground.Name = "guna2PicBxBacground";
+            this.guna2PicBxBacground.Size = new System.Drawing.Size(474, 802);
+            this.guna2PicBxBacground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PicBxBacground.TabIndex = 0;
+            this.guna2PicBxBacground.TabStop = false;
+            // 
+            // guna2cpicbxCreator
+            // 
+            this.guna2cpicbxCreator.BackColor = System.Drawing.Color.LightSlateGray;
+            this.guna2cpicbxCreator.Image = global::MyProject_v002.Properties.Resources.IMG_20221006_174919_076_1_;
+            this.guna2cpicbxCreator.ImageRotate = 0F;
+            this.guna2cpicbxCreator.Location = new System.Drawing.Point(155, 239);
+            this.guna2cpicbxCreator.Name = "guna2cpicbxCreator";
+            this.guna2cpicbxCreator.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2cpicbxCreator.Size = new System.Drawing.Size(294, 360);
+            this.guna2cpicbxCreator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2cpicbxCreator.TabIndex = 5;
+            this.guna2cpicbxCreator.TabStop = false;
+            // 
             // guna2cbtnEmail
             // 
             this.guna2cbtnEmail.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -114,6 +172,7 @@
             this.guna2cbtnEmail.FillColor = System.Drawing.Color.SlateGray;
             this.guna2cbtnEmail.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2cbtnEmail.ForeColor = System.Drawing.Color.White;
+            this.guna2cbtnEmail.Image = global::MyProject_v002.Properties.Resources.email_icon_svg_15;
             this.guna2cbtnEmail.ImageSize = new System.Drawing.Size(30, 30);
             this.guna2cbtnEmail.Location = new System.Drawing.Point(415, 22);
             this.guna2cbtnEmail.Name = "guna2cbtnEmail";
@@ -132,6 +191,7 @@
             this.guna2cbtnTelegram.FillColor = System.Drawing.Color.SlateGray;
             this.guna2cbtnTelegram.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2cbtnTelegram.ForeColor = System.Drawing.Color.White;
+            this.guna2cbtnTelegram.Image = global::MyProject_v002.Properties.Resources.telegram_icon_512x512_1s8w0tx0;
             this.guna2cbtnTelegram.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2cbtnTelegram.Location = new System.Drawing.Point(342, 22);
             this.guna2cbtnTelegram.Name = "guna2cbtnTelegram";
@@ -150,6 +210,7 @@
             this.guna2cbtnInstagram.FillColor = System.Drawing.Color.SlateGray;
             this.guna2cbtnInstagram.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2cbtnInstagram.ForeColor = System.Drawing.Color.White;
+            this.guna2cbtnInstagram.Image = global::MyProject_v002.Properties.Resources.free_instagram_icon_2165_thumb;
             this.guna2cbtnInstagram.ImageSize = new System.Drawing.Size(45, 45);
             this.guna2cbtnInstagram.Location = new System.Drawing.Point(269, 22);
             this.guna2cbtnInstagram.Name = "guna2cbtnInstagram";
@@ -168,6 +229,7 @@
             this.guna2cbtnFacebook.FillColor = System.Drawing.Color.SlateGray;
             this.guna2cbtnFacebook.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2cbtnFacebook.ForeColor = System.Drawing.Color.White;
+            this.guna2cbtnFacebook.Image = global::MyProject_v002.Properties.Resources._25187;
             this.guna2cbtnFacebook.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2cbtnFacebook.Location = new System.Drawing.Point(196, 22);
             this.guna2cbtnFacebook.Name = "guna2cbtnFacebook";
@@ -186,6 +248,7 @@
             this.guna2cbtnWhatsApp.FillColor = System.Drawing.Color.SlateGray;
             this.guna2cbtnWhatsApp.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.guna2cbtnWhatsApp.ForeColor = System.Drawing.Color.White;
+            this.guna2cbtnWhatsApp.Image = global::MyProject_v002.Properties.Resources.whatsapp;
             this.guna2cbtnWhatsApp.ImageSize = new System.Drawing.Size(40, 40);
             this.guna2cbtnWhatsApp.Location = new System.Drawing.Point(123, 22);
             this.guna2cbtnWhatsApp.Name = "guna2cbtnWhatsApp";
@@ -193,28 +256,6 @@
             this.guna2cbtnWhatsApp.Size = new System.Drawing.Size(67, 65);
             this.guna2cbtnWhatsApp.TabIndex = 6;
             this.guna2cbtnWhatsApp.Click += new System.EventHandler(this.guna2cbtnWhatsApp_Click);
-            // 
-            // lblCreatorInfo
-            // 
-            this.lblCreatorInfo.BackColor = System.Drawing.Color.LightSlateGray;
-            this.lblCreatorInfo.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCreatorInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.lblCreatorInfo.Location = new System.Drawing.Point(22, 119);
-            this.lblCreatorInfo.Name = "lblCreatorInfo";
-            this.lblCreatorInfo.Size = new System.Drawing.Size(560, 140);
-            this.lblCreatorInfo.TabIndex = 3;
-            this.lblCreatorInfo.Text = "label2";
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.Color.LightSlateGray;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(5, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(594, 65);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "About the creator";
             // 
             // guna2PictureBox1
             // 
@@ -229,40 +270,6 @@
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.guna2PicBxBacground);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(474, 802);
-            this.panel2.TabIndex = 1;
-            // 
-            // guna2cpicbxCreator
-            // 
-            this.guna2cpicbxCreator.BackColor = System.Drawing.Color.LightSlateGray;
-            this.guna2cpicbxCreator.ImageRotate = 0F;
-            this.guna2cpicbxCreator.Location = new System.Drawing.Point(142, 262);
-            this.guna2cpicbxCreator.Name = "guna2cpicbxCreator";
-            this.guna2cpicbxCreator.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2cpicbxCreator.Size = new System.Drawing.Size(320, 331);
-            this.guna2cpicbxCreator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2cpicbxCreator.TabIndex = 5;
-            this.guna2cpicbxCreator.TabStop = false;
-            // 
-            // guna2PicBxBacground
-            // 
-            this.guna2PicBxBacground.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2PicBxBacground.FillColor = System.Drawing.Color.Gray;
-            this.guna2PicBxBacground.ImageRotate = 0F;
-            this.guna2PicBxBacground.Location = new System.Drawing.Point(0, 0);
-            this.guna2PicBxBacground.Name = "guna2PicBxBacground";
-            this.guna2PicBxBacground.Size = new System.Drawing.Size(474, 802);
-            this.guna2PicBxBacground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PicBxBacground.TabIndex = 0;
-            this.guna2PicBxBacground.TabStop = false;
-            // 
             // UC_Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -274,10 +281,10 @@
             this.Load += new System.EventHandler(this.UC_Info_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.guna2cpicbxCreator)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PicBxBacground)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2cpicbxCreator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

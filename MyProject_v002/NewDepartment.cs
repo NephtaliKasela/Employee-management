@@ -40,14 +40,13 @@ namespace MyProject_v002
                 //repository.Save_Departments(repository.Get_Departmnts(), "Employees/Departments.txt");
                 repository.Save_Departments(repository.Get_Departmnts(), fls.Department());
                 listBox.Items.Add(guna2TxtDepartmt.Text);
-                lblWarning.Text = "Department was added successfully !";
-                lblWarning.ForeColor = Color.Lime;
+
                 guna2TxtDepartmt.Text = string.Empty;
             }
             else
             {
-                lblWarning.Text = "Impossible to add !";
-                lblWarning.ForeColor = Color.MediumVioletRed;
+                //lblWarning.Text = "Impossible to add !";
+                //lblWarning.ForeColor = Color.MediumVioletRed;
             }
         }
 
@@ -61,8 +60,8 @@ namespace MyProject_v002
                 repository.Save_Departments(repository.Get_Departmnts(), fls.Department());
                 listBox.Items.Remove(listBox.SelectedItem.ToString());
 
-                lblWarning.Text = "Department was deleted successfully !";
-                lblWarning.ForeColor = Color.Lime;
+                //lblWarning.Text = "Department was deleted successfully !";
+                //lblWarning.ForeColor = Color.Lime;
             }
             else MessageBox.Show("Select the department", "Warning !");
 
@@ -70,7 +69,31 @@ namespace MyProject_v002
 
         private void guna2TxtDepartmt_TextChanged(object sender, EventArgs e)
         {
+            if (guna2TxtDepartmt.Text.Length > 0)
+            {
+                guna2btnAddNewDepartment.FillColor = Color.Lime;
+                guna2btnAddNewDepartment.ForeColor = Color.White;
+            }
+            else
+            {
+                guna2btnAddNewDepartment.FillColor = Color.MidnightBlue;
+                guna2btnAddNewDepartment.ForeColor = Color.Lime;
+            }
+        }
 
+        private void listBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBox.SelectedItem != null)
+            { 
+                guna2btnDeleteDepartment.ForeColor = Color.White;
+                guna2btnDeleteDepartment.FillColor = Color.MediumVioletRed;
+                //lblWarning.Text = string.Empty;
+            }
+            else
+            {
+                guna2btnDeleteDepartment.ForeColor = Color.MediumVioletRed;
+                guna2btnDeleteDepartment.FillColor = Color.MidnightBlue;
+            }
         }
     }
 }

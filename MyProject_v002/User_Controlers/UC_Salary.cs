@@ -224,7 +224,6 @@ namespace MyProject_v002.User_Controlers
                     {
                         if (usualAmount > 0)
                         {
-                            
                             if (salary.Mounth.ToLower() == guna2cbxMounth.Text.ToLower())
                             {
                                 salary.UsualAmount += usualAmount;
@@ -276,7 +275,7 @@ namespace MyProject_v002.User_Controlers
             }
         }
 
-        // Sabstract salary or bonus to all employees
+        // Substract salary or bonus to all employees
         public void Substract_Salary_or_Bonus_ToAll_Employees(double usualAmount, double bonus)
         {
             if (usualAmount > 0 || bonus > 0)
@@ -326,7 +325,8 @@ namespace MyProject_v002.User_Controlers
                 }
                 usualAmount = 0;
                 bonus = 0;
-                repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+                //repository.SaveEmployees_Salary("Employees/Salary.txt", repository.Get_Salary());
+                repository.SaveEmployees_Salary(fls.Salary(), repository.Get_Salary());
                 MessageBox.Show("Successfull !!!", "Info !");
             }
         }
