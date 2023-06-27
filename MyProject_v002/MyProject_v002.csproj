@@ -26,9 +26,10 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <UpdateUrl>http://localhost/MyProject_v002/</UpdateUrl>
+    <TargetCulture>fr-FR</TargetCulture>
     <ProductName>STEFF Control</ProductName>
     <PublisherName>Nephtali</PublisherName>
-    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationRevision>18</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -451,6 +452,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Images\matrix-g9ec227521_1920.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="worker %282%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".ico">
+      <Visible>False</Visible>
+      <Description>Icon</Description>
+      <Progid>001</Progid>
+      <DefaultIcon>worker %282%29.ico</DefaultIcon>
+    </FileAssociation>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

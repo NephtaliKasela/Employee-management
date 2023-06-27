@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2btnNewDepartment = new Guna.UI2.WinForms.Guna2Button();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.lblUserName = new System.Windows.Forms.Label();
+            this.guna2cbtnUserProfile = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2btnAddNewEmployee = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnCorbeille = new Guna.UI2.WinForms.Guna2Button();
-            this.panelContainer = new System.Windows.Forms.Panel();
-            this.guna2btnFavorites = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2btnNewDepartment = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2cbtnUserProfile = new Guna.UI2.WinForms.Guna2CircleButton();
             this.guna2btnInfo = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnHistory = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnSalary = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnEmployees = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2btnFavorites = new Guna.UI2.WinForms.Guna2Button();
             this.guna2btnHome = new Guna.UI2.WinForms.Guna2Button();
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.guna2Panel2.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -66,6 +67,30 @@
             this.guna2Panel2.Size = new System.Drawing.Size(195, 753);
             this.guna2Panel2.TabIndex = 5;
             // 
+            // guna2btnNewDepartment
+            // 
+            this.guna2btnNewDepartment.BackColor = System.Drawing.Color.White;
+            this.guna2btnNewDepartment.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.guna2btnNewDepartment.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2btnNewDepartment.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.guna2btnNewDepartment.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2btnNewDepartment.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2btnNewDepartment.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2btnNewDepartment.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2btnNewDepartment.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2btnNewDepartment.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2btnNewDepartment.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2btnNewDepartment.ForeColor = System.Drawing.Color.White;
+            this.guna2btnNewDepartment.Image = global::MyProject_v002.Properties.Resources.Plus_Symbol_PNG_Image_File;
+            this.guna2btnNewDepartment.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2btnNewDepartment.Location = new System.Drawing.Point(0, 543);
+            this.guna2btnNewDepartment.Margin = new System.Windows.Forms.Padding(20);
+            this.guna2btnNewDepartment.Name = "guna2btnNewDepartment";
+            this.guna2btnNewDepartment.Size = new System.Drawing.Size(195, 60);
+            this.guna2btnNewDepartment.TabIndex = 14;
+            this.guna2btnNewDepartment.Text = "Department";
+            this.guna2btnNewDepartment.Click += new System.EventHandler(this.guna2btnNewDepartment_Click);
+            // 
             // guna2GroupBox1
             // 
             this.guna2GroupBox1.Controls.Add(this.lblUserName);
@@ -89,6 +114,27 @@
             this.lblUserName.TabIndex = 14;
             this.lblUserName.Text = "ADMIN";
             this.lblUserName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // guna2cbtnUserProfile
+            // 
+            this.guna2cbtnUserProfile.BackColor = System.Drawing.Color.White;
+            this.guna2cbtnUserProfile.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2cbtnUserProfile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2cbtnUserProfile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2cbtnUserProfile.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2cbtnUserProfile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2cbtnUserProfile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guna2cbtnUserProfile.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2cbtnUserProfile.ForeColor = System.Drawing.Color.White;
+            this.guna2cbtnUserProfile.Image = global::MyProject_v002.Properties.Resources.icon_gb75904f00_1280;
+            this.guna2cbtnUserProfile.ImageSize = new System.Drawing.Size(50, 50);
+            this.guna2cbtnUserProfile.Location = new System.Drawing.Point(16, 28);
+            this.guna2cbtnUserProfile.Name = "guna2cbtnUserProfile";
+            this.guna2cbtnUserProfile.PressedColor = System.Drawing.Color.White;
+            this.guna2cbtnUserProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2cbtnUserProfile.Size = new System.Drawing.Size(70, 70);
+            this.guna2cbtnUserProfile.TabIndex = 3;
+            this.guna2cbtnUserProfile.Click += new System.EventHandler(this.guna2cbtnUserProfile_Click);
             // 
             // guna2btnAddNewEmployee
             // 
@@ -132,82 +178,6 @@
             this.guna2btnCorbeille.Name = "guna2btnCorbeille";
             this.guna2btnCorbeille.Size = new System.Drawing.Size(195, 60);
             this.guna2btnCorbeille.TabIndex = 12;
-            // 
-            // panelContainer
-            // 
-            this.panelContainer.BackColor = System.Drawing.Color.SteelBlue;
-            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelContainer.Location = new System.Drawing.Point(195, 0);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(887, 753);
-            this.panelContainer.TabIndex = 6;
-            // 
-            // guna2btnFavorites
-            // 
-            this.guna2btnFavorites.BackColor = System.Drawing.Color.White;
-            this.guna2btnFavorites.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.guna2btnFavorites.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2btnFavorites.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.guna2btnFavorites.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2btnFavorites.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2btnFavorites.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2btnFavorites.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnFavorites.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2btnFavorites.FillColor = System.Drawing.Color.SteelBlue;
-            this.guna2btnFavorites.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2btnFavorites.ForeColor = System.Drawing.Color.White;
-            this.guna2btnFavorites.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2btnFavorites.Location = new System.Drawing.Point(0, 190);
-            this.guna2btnFavorites.Margin = new System.Windows.Forms.Padding(20);
-            this.guna2btnFavorites.Name = "guna2btnFavorites";
-            this.guna2btnFavorites.Size = new System.Drawing.Size(195, 60);
-            this.guna2btnFavorites.TabIndex = 7;
-            this.guna2btnFavorites.Text = "Favorites";
-            // 
-            // guna2btnNewDepartment
-            // 
-            this.guna2btnNewDepartment.BackColor = System.Drawing.Color.White;
-            this.guna2btnNewDepartment.CheckedState.CustomBorderColor = System.Drawing.Color.White;
-            this.guna2btnNewDepartment.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2btnNewDepartment.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
-            this.guna2btnNewDepartment.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2btnNewDepartment.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2btnNewDepartment.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2btnNewDepartment.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2btnNewDepartment.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2btnNewDepartment.FillColor = System.Drawing.Color.SteelBlue;
-            this.guna2btnNewDepartment.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2btnNewDepartment.ForeColor = System.Drawing.Color.White;
-            this.guna2btnNewDepartment.Image = global::MyProject_v002.Properties.Resources.Plus_Symbol_PNG_Image_File;
-            this.guna2btnNewDepartment.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2btnNewDepartment.Location = new System.Drawing.Point(0, 543);
-            this.guna2btnNewDepartment.Margin = new System.Windows.Forms.Padding(20);
-            this.guna2btnNewDepartment.Name = "guna2btnNewDepartment";
-            this.guna2btnNewDepartment.Size = new System.Drawing.Size(195, 60);
-            this.guna2btnNewDepartment.TabIndex = 14;
-            this.guna2btnNewDepartment.Text = "Department";
-            this.guna2btnNewDepartment.Click += new System.EventHandler(this.guna2btnNewDepartment_Click);
-            // 
-            // guna2cbtnUserProfile
-            // 
-            this.guna2cbtnUserProfile.BackColor = System.Drawing.Color.White;
-            this.guna2cbtnUserProfile.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2cbtnUserProfile.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2cbtnUserProfile.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2cbtnUserProfile.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2cbtnUserProfile.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2cbtnUserProfile.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2cbtnUserProfile.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2cbtnUserProfile.ForeColor = System.Drawing.Color.White;
-            this.guna2cbtnUserProfile.Image = global::MyProject_v002.Properties.Resources.icon_gb75904f00_1280;
-            this.guna2cbtnUserProfile.ImageSize = new System.Drawing.Size(50, 50);
-            this.guna2cbtnUserProfile.Location = new System.Drawing.Point(16, 28);
-            this.guna2cbtnUserProfile.Name = "guna2cbtnUserProfile";
-            this.guna2cbtnUserProfile.PressedColor = System.Drawing.Color.White;
-            this.guna2cbtnUserProfile.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2cbtnUserProfile.Size = new System.Drawing.Size(70, 70);
-            this.guna2cbtnUserProfile.TabIndex = 3;
-            this.guna2cbtnUserProfile.Click += new System.EventHandler(this.guna2cbtnUserProfile_Click);
             // 
             // guna2btnInfo
             // 
@@ -309,6 +279,28 @@
             this.guna2btnEmployees.Text = "Employees";
             this.guna2btnEmployees.Click += new System.EventHandler(this.guna2btnEmployees_Click);
             // 
+            // guna2btnFavorites
+            // 
+            this.guna2btnFavorites.BackColor = System.Drawing.Color.White;
+            this.guna2btnFavorites.CheckedState.CustomBorderColor = System.Drawing.Color.White;
+            this.guna2btnFavorites.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.guna2btnFavorites.CustomBorderThickness = new System.Windows.Forms.Padding(2, 0, 0, 0);
+            this.guna2btnFavorites.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2btnFavorites.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2btnFavorites.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2btnFavorites.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2btnFavorites.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2btnFavorites.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2btnFavorites.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2btnFavorites.ForeColor = System.Drawing.Color.White;
+            this.guna2btnFavorites.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2btnFavorites.Location = new System.Drawing.Point(0, 190);
+            this.guna2btnFavorites.Margin = new System.Windows.Forms.Padding(20);
+            this.guna2btnFavorites.Name = "guna2btnFavorites";
+            this.guna2btnFavorites.Size = new System.Drawing.Size(195, 60);
+            this.guna2btnFavorites.TabIndex = 7;
+            this.guna2btnFavorites.Text = "Favorites";
+            // 
             // guna2btnHome
             // 
             this.guna2btnHome.BackColor = System.Drawing.Color.White;
@@ -334,6 +326,15 @@
             this.guna2btnHome.Text = "Home";
             this.guna2btnHome.Click += new System.EventHandler(this.guna2btnHome_Click);
             // 
+            // panelContainer
+            // 
+            this.panelContainer.BackColor = System.Drawing.Color.SteelBlue;
+            this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContainer.Location = new System.Drawing.Point(195, 0);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(887, 753);
+            this.panelContainer.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -341,6 +342,7 @@
             this.ClientSize = new System.Drawing.Size(1082, 753);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.guna2Panel2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(800, 720);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
