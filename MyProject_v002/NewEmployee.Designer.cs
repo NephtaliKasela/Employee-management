@@ -524,7 +524,7 @@
             this.guna2btnSubmit.FillColor = System.Drawing.Color.Teal;
             this.guna2btnSubmit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2btnSubmit.ForeColor = System.Drawing.Color.White;
-            this.guna2btnSubmit.Location = new System.Drawing.Point(463, 593);
+            this.guna2btnSubmit.Location = new System.Drawing.Point(271, 673);
             this.guna2btnSubmit.Name = "guna2btnSubmit";
             this.guna2btnSubmit.Size = new System.Drawing.Size(180, 55);
             this.guna2btnSubmit.TabIndex = 34;
@@ -533,7 +533,7 @@
             // 
             // lblWarning
             // 
-            this.lblWarning.Location = new System.Drawing.Point(415, 662);
+            this.lblWarning.Location = new System.Drawing.Point(223, 742);
             this.lblWarning.Name = "lblWarning";
             this.lblWarning.Size = new System.Drawing.Size(275, 23);
             this.lblWarning.TabIndex = 35;
@@ -635,7 +635,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(721, 706);
+            this.ClientSize = new System.Drawing.Size(721, 777);
             this.Controls.Add(this.guna2cbxState);
             this.Controls.Add(this.lblState);
             this.Controls.Add(this.guna2cbxDepartment);
